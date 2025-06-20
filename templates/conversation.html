@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.conversation.Title}}</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div style="height: 100vh; display: flex; flex-direction: column;">
+
+    <!-- Header -->
+    <div style="padding: 20px; text-align: center; background: #222;">
+        <p
+        onclick="history.back()"
+        >Back</p>
+        <div style="font-size: 20px; font-weight: bold;">{{.conversation.Title}}</div>
+        <div style="font-size: 14px; opacity: 0.7;">{{.conversation.Subtitle}}</div>
+    </div>
+
+    <!-- Conversation Lines -->
+    <div id="conversation" style="flex: 1; overflow-y: auto; padding: 20px;">
+        {{range $index, $line := .conversation.Lines}}
+        <div onclick="seek({{$line.Timestamp}})" data-time="{{$line.Timestamp}}" data-index="{{$index}}" style="margin: 20px 0; cursor: pointer; opacity: 0.5; transition: all 0.3s; padding: 15px; border-radius: 8px;">
+            <div style="font-size: 28px; font-weight: bold; margin-bottom: 5px;">{{$line.Chinese}}</div>
+            <div style="font-size: 16px; opacity: 0.7;">{{$line.Pinyin}}</div>
+            <div style="font-size: 16px; opacity: 0.7;">{{$line.English}}</div>
+        </div>
+        {{end}}
+    </div>
+
+    <!-- Controls -->
+    <div style="padding: 20px; background: #222; display: flex; align-items: center; gap: 20px;">
+        <button onclick="togglePlay()" id="playBtn" style="background: #1db954; border: none; color: white; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; font-size: 16px;">
+            ▶
+        </button>
+
+        <div style="flex: 1;">
+            <div onclick="seekBar(event)" style="width: 100%; height: 4px; background: #444; border-radius: 2px; cursor: pointer; position: relative;">
+                <div id="progress" style="height: 100%; background: #1db954; border-radius: 2px; width: 0%; transition: width 0.1s;"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 12px; margin-top: 5px;">
+                <span id="currentTime">0:00</span>
+                <span id="totalTime">0:00</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden audio element -->
+<audio id="audioPlayer" src="{{.conversation.Audio}}" preload="metadata"></audio>
+
+<script>
+    let audio = document.getElementById('audioPlayer');
+    let currentLineIndex = -1;
+
+    // Update total time when audio loads
+    audio.addEventListener('loadedmetadata', () => {
+        document.getElementById('totalTime').textContent = formatTime(audio.duration);
+    });
+
+    function togglePlay() {
+        if (audio.paused) {
+            audio.play();
+            document.getElementById('playBtn').textContent = '⏸';
+        } else {
+            audio.pause();
+            document.getElementById('playBtn').textContent = '▶';
+        }
+    }
+
+    function seek(timestamp) {
+        audio.currentTime = timeToSeconds(timestamp);
+        updateConversation();
+    }
+
+    function timeToSeconds(ts) {
+        const parts = ts.split(':').map(Number);
+        if (parts.length === 2) {
+            return parts[0] * 60 + parts[1];
+        }
+        return 0;
+    }
+
+    function seekBar(event) {
+        const rect = event.target.getBoundingClientRect();
+        const percent = (event.clientX - rect.left) / rect.width;
+        audio.currentTime = percent * audio.duration;
+    }
+
+    function updateConversation() {
+        const lines = document.querySelectorAll('[data-time]');
+        let activeIndex = -1;
+
+        // Find current line
+        for (let i = lines.length - 1; i >= 0; i--) {
+            const lineTime = timeToSeconds(lines[i].dataset.time);
+
+            if (audio.currentTime >= lineTime) {
+                activeIndex = parseInt(lines[i].dataset.index);
+                break;
+            }
+        }
+
+        // Only update if changed
+        if (activeIndex !== currentLineIndex) {
+            // Clear all active styles
+            lines.forEach(line => {
+                line.style.opacity = '0.5';
+                line.style.background = 'none';
+            });
+
+            // Set active line
+            if (activeIndex >= 0) {
+                lines[activeIndex].style.opacity = '1';
+                lines[activeIndex].style.background = '#333';
+
+                // Auto scroll
+                lines[activeIndex].scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }
+
+            currentLineIndex = activeIndex;
+        }
+    }
+
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return mins + ':' + (secs < 10 ? '0' : '') + secs;
+    }
+
+    // Audio event listeners
+    audio.addEventListener('timeupdate', () => {
+        const percent = (audio.currentTime / audio.duration) * 100;
+        document.getElementById('progress').style.width = percent + '%';
+        document.getElementById('currentTime').textContent = formatTime(audio.currentTime);
+        updateConversation();
+    });
+
+    audio.addEventListener('ended', () => {
+        document.getElementById('playBtn').textContent = '▶️';
+        // Clear active styles
+        document.querySelectorAll('[data-time]').forEach(line => {
+            line.style.opacity = '0.5';
+            line.style.background = 'none';
+        });
+        currentLineIndex = -1;
+    });
+
+    audio.addEventListener('play', () => {
+        document.getElementById('playBtn').textContent = '⏸';
+    });
+
+    audio.addEventListener('pause', () => {
+        document.getElementById('playBtn').textContent = '▶';
+    });
+</script>
+</body>
+</html>
