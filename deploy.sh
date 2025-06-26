@@ -14,6 +14,7 @@ if [ $filesize -gt 1000 ]; then
 fi
 
 echo "\n***RAN ON:$(date)***"
+
 # Fetch the latest changes from origin
 git fetch origin master
 
