@@ -26,6 +26,7 @@ type Conversation struct {
 type Line struct {
 	Timestamp string `json:"timestamp"`
 	Chinese   string `json:"chinese"`
+	Teochew   string `json:"teochew"`
 	English   string `json:"english"`
 	Pinyin    string `json:"pinyin"`
 }

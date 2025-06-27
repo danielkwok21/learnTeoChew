@@ -2,79 +2,79 @@
   "conversations": [
     {
     "id": 1,
-    "title": "Chinese Conversation",
+    "title": "teochew Conversation",
     "subtitle": "Lesson 1: Greetings",
     "audio": "/audio/1.2 Conversation practice 2 recorder (Lesson 1).m4a",
     "lines": [
       {
         "timestamp": "00:01",
-        "chinese": "汝好！伊叫什個？",
+        "teochew": "汝好！伊叫什個？",
         "pinyin": "lu2 ho2! lu2 gio3(2) mig4(8) gai5?",
         "english": "Hi! What's your name?"
       },
       {
         "timestamp": "00:05",
-        "chinese": "我叫阿文。伊呢？",
+        "teochew": "我叫阿文。伊呢？",
         "pinyin": "ua2 gio3(2) a1 bhung5. lu2 ne1 ?",
         "english": "My name is A-Bhung. And you?"
       },
       {
         "timestamp": "00:10",
-        "chinese": "我叫阿花。伊是底誰？",
+        "teochew": "我叫阿花。伊是底誰？",
         "pinyin": "ua2 gio3(2) a1 hua1. i1 si6(7) di7 diang1?",
         "english": "My name is A-Hua. Who is she?"
       },
       {
         "timestamp": "00:16",
-        "chinese": "伊是我個阿姐。",
+        "teochew": "伊是我個阿姐。",
         "pinyin": "i1 si6(7) ua2 gai5(7) a1 ze2.",
         "english": "She is my older sister."
       },
       {
         "timestamp": "00:20",
-        "chinese": "汝在底塊來？",
+        "teochew": "汝在底塊來？",
         "pinyin": "lu2 do6(7) di7 go3(2) lai5?",
         "english": "Where are you from?"
       },
       {
         "timestamp": "00:24",
-        "chinese": "俺在印尼來。汝全底塊？",
+        "teochew": "俺在印尼來。汝全底塊？",
         "pinyin": "nang2 do6(7) ing3(2) ni5 lai5. lu2 kia6(7) di7 go3?",
         "english": "We're from Indonesia. Where do you live?"
       },
       {
         "timestamp": "00:31",
-        "chinese": "我在牛車水。汝偌當時到個？",
+        "teochew": "我在牛車水。汝偌當時到個？",
         "pinyin": "ua2 kia6(7) do7 ghu5(7) cla1 zui2. lu2 nang7 diang1 si5 gao3 gai5?",
         "english": "I live in Chinatown. When did you arrive?"
       },
       {
         "timestamp": "00:39",
-        "chinese": "俺昨日到個。",
+        "teochew": "俺昨日到個。",
         "pinyin": "nang2 za2(1) rig8 gao3 gai5",
         "english": "We arrived yesterday."
       },
       {
         "timestamp": "00:44",
-        "chinese": "做呢會來新加坡？",
+        "teochew": "做呢會來新加坡？",
         "pinyin": "zo1 ni5(7) oi6(7) lai5(7) sing1 gia1 bo1?",
         "english": "Why did you come to Singapore?"
       },
       {
         "timestamp": "00:48",
-        "chinese": "因為俺來𨑨迌。",
+        "teochew": "因為俺來𨑨迌。",
         "pinyin": "ing1 ui5(7) nang2 lai5(7) tig8 to5.",
         "english": "Because we came for travel."
       },
       {
         "timestamp": "00:53",
-        "chinese": "汝覺得只塊在生？",
+        "teochew": "汝覺得只塊在生？",
         "pinyin": "lu2 gag4 deg4 zi2 go3 zai6(7) sen1 ?",
         "english": "How do you find this place?"
       },
       {
         "timestamp": "00:57",
-        "chinese": "我覺得只塊真雅！",
+        "teochew": "我覺得只塊真雅！",
         "pinyin": "ua2 gag4 deg4 zi2 go3 zing1 ngia2",
         "english": "I think it's beautiful here!"
       }
@@ -82,43 +82,43 @@
   },
     {
       "id": 2,
-      "title": "Chinese Conversation",
+      "title": "teochew Conversation",
       "subtitle": "Lesson 2: Catching Up",
       "audio": "/audio/Slide 3.wav",
       "lines": [
         {
           "timestamp": "00:00",
-          "chinese": "哇！是汝咧？汝還記得我？",
+          "teochew": "哇！是汝咧？汝還記得我？",
           "pinyin": "Wā! ka2(1) sī7 lu2 hā1? lu2 huan1 gi3(2) dég4 ua2 bhoi6?",
           "english": "Wow! Is that you? Do you still remember me?"
         },
         {
           "timestamp": "00:07",
-          "chinese": "是阿花咧？好久無遇到了！",
+          "teochew": "是阿花咧？好久無遇到了！",
           "pinyin": "lu2 sī7 a1 huā5? hoh4(8) gu2(3) bho5(7) ngo6 lu2 liu2.",
           "english": "Are you A-Hua? Long time no see!"
         },
         {
           "timestamp": "00:14",
-          "chinese": "誒，我是阿花，汝咧做啥物？",
+          "teochew": "誒，我是阿花，汝咧做啥物？",
           "pinyin": "dīoh4(8), ua1 sī6(7) a1 huā5. lu2 zī6(6) zung5 zo3(2) muēh8?",
           "english": "Yes, I’m A-Hua. How are you now?"
         },
         {
           "timestamp": "00:21",
-          "chinese": "我真好，感謝。汝呢？汝做什麼工？",
+          "teochew": "我真好，感謝。汝呢？汝做什麼工？",
           "pinyin": "gua2 jin2 hó, gám2(1) siā7. lu2 ne1? lu2 do6(7) zo3(2) mih4(8) gang1?",
           "english": "I’m good, thank you. And you? What kind of work are you doing?"
         },
         {
           "timestamp": "00:29",
-          "chinese": "我做老師，還是在銀行做工無？",
+          "teochew": "我做老師，還是在銀行做工無？",
           "pinyin": "ua2 zī2(6) zung5 sī7 sing1 sēn1. lu2 huan1 sī6(7) do6(7) ngēng5(7) hang5 zo3(2) gang1 bho5?",
           "english": "I’m a teacher now. Are you still working at the bank?"
         },
         {
           "timestamp": "00:38",
-          "chinese": "無了，我在厝內做工。",
+          "teochew": "無了，我在厝內做工。",
           "pinyin": "bho5 liēu2, ua2 zī2(6) zung5 do6(7) laī6 zo3(2) gang1.",
           "english": "Not anymore, I work from home now."
         }
@@ -126,37 +126,37 @@
     },
     {
       "id": 3,
-      "title": "Chinese Conversation",
+      "title": "teochew Conversation",
       "subtitle": "Lesson 3: Shopping",
       "audio": "/audio/Slide 17.wav",
       "lines": [
         {
           "timestamp": "00:01",
-          "chinese": "汝好，我會使睇只個？",
+          "teochew": "汝好，我會使睇只個？",
           "pinyin": "lu2 ho2, ua2 oi6(7) sai2(1) toin2(1) zi2(1) gai5 bhoi6?",
           "english": "Hi, can I take a look at this keychain?"
         },
         {
           "timestamp": "00:06",
-          "chinese": "會使。只個罔個十銖，三個二十五銖。",
+          "teochew": "會使。只個罔個十銖，三個二十五銖。",
           "pinyin": "oi6(7) sai2. zi2(1) gai5 zêg8(4) gai5 zab8(4) kou1, san1 gai5 ri6(7) zab8(4) ngou6(7) kou1",
           "english": "Of course. One is 10 ringgit, or three for 25."
         },
         {
           "timestamp": "00:14",
-          "chinese": "好，我愛三個。還有，只本薄若銖？",
+          "teochew": "好，我愛三個。還有，只本薄若銖？",
           "pinyin": "ho2, ua2 ain3 san1 gai5. huan1 i6, zi2(1) bung2(1) pou6 rioh8(4) zoi7 lui5?",
           "english": "Okay, I’ll take three. Also, how much is this book?"
         },
         {
           "timestamp": "00:23",
-          "chinese": "罔本十二銖。",
+          "teochew": "罔本十二銖。",
           "pinyin": "zêg8(4) bung2 zab8(4) ri6(7) kou1",
           "english": "One is 12 ringgit."
         },
         {
           "timestamp": "00:27",
-          "chinese": "按呢我也愛罔本薄。",
+          "teochew": "按呢我也愛罔本薄。",
           "pinyin": "an1 nei2 ua2 ia7 ain3 zêg8(4) bung2(1) pou6",
           "english": "Then I’ll take one book too."
         }
@@ -164,86 +164,265 @@
     },
     {
       "id": 4,
-      "title": "Chinese Conversation",
+      "title": "teochew Conversation",
       "subtitle": "Lesson 4: Morning Plans",
       "audio": "/audio/Slide 20.mp4",
       "lines": [
         {
           "timestamp": "00:01",
-          "chinese": "今日早早，我就合我個查某朋友約好做䟘去坵底食早頓。",
-          "pinyin": "gim1 rig8 za2(6) za2(3), ua2 ziu6(7) ga4 ua2 gai5(7) za1 t1 bhou2(1) pēng5(7) iu2 ioh4 ho2 zo3(2) bu5(7) ke3 bo1 doi2 ziah8(4) za2(1) deng3",
-          "english": "Early this morning, I had made plans with my girlfriend to go to downtown for breakfast."
+          "teochew": "今日早早，我就合我個查某朋友",
+          "chinese": "今天一大早，我就和我女朋友",
+          "pinyin": "gim1 rig8 za2(6) za2(3), ua2 ziu6(7) ga4 ua2 gai5(7) za1 t1 bhou2(1) pēng5(7) iu2",
+          "english": "Early this morning, I made plans with my girlfriend"
+        },
+        {
+          "timestamp": "00:08",
+          "teochew": "約好做䟘去坵底食早頓。",
+          "chinese": "约好去市中心吃早餐。",
+          "pinyin": "ioh4 ho2 zo3(2) bu5(7) ke3 bo1 doi2 ziah8(4) za2(1) deng3",
+          "english": "to go downtown for breakfast."
         },
         {
           "timestamp": "00:15",
-          "chinese": "伊遘着我就笑笑咧：“早啊！汝今日做咧按呢早到？”",
-          "pinyin": "i1 ngô6(7) dioh4 ua2 ziu6(7) cio3(2) cio3 cia3: “za2 a! lu2 gim1 rig8 zo3(2) ni5(7) an1 ne1 za2(1) gao3?”",
-          "english": "As soon as she saw me, she smiled and said, “Morning! How come you’re here so early today?”"
+          "teochew": "伊遘着我就笑笑咧：",
+          "chinese": "她见到我就笑着说：",
+          "pinyin": "i1 ngô6(7) dioh4 ua2 ziu6(7) cio3(2) cio3 cia3:",
+          "english": "When she saw me, she smiled and said:"
+        },
+        {
+          "timestamp": "00:20",
+          "teochew": "“早啊！汝今日做咧按呢早到？”",
+          "chinese": "“早啊！你今天怎么这么早到？”",
+          "pinyin": "“za2 a! lu2 gim1 rig8 zo3(2) ni5(7) an1 ne1 za2(1) gao3?”",
+          "english": "“Morning! How come you're so early today?”"
         },
         {
           "timestamp": "00:27",
-          "chinese": "我笑笑回答：“我今日早醒，定着袂使曠到！”",
-          "pinyin": "ua2 cio3(2) cio3 huê5 i1(7): “ua2 gim1 rig8 za2(6) cên2(3), dian7 dioh8 bhoi6(7) sai2(1) uan3(2) gao3!”",
-          "english": "I smiled back and replied, “I woke up early today, so of course I couldn’t be late!”"
+          "teochew": "我笑笑回答：",
+          "chinese": "我笑着回答：",
+          "pinyin": "ua2 cio3(2) cio3 huê5 i1(7):",
+          "english": "I smiled and replied:"
+        },
+        {
+          "timestamp": "00:31",
+          "teochew": "“我今日早醒，定着袂使曠到！”",
+          "chinese": "“我今天醒得早，当然不会迟到！”",
+          "pinyin": "“ua2 gim1 rig8 za2(6) cên2(3), dian7 dioh8 bhoi6(7) sai2(1) uan3(2) gao3!”",
+          "english": "“I woke up early today, so of course I wouldn’t be late!”"
         },
         {
           "timestamp": "00:39",
-          "chinese": "俺去了許間俺恁去個咖啡店，叫了咖啡。",
-          "pinyin": "nang2 ke3(2) lieu1(7) he2(1) gni1 nang2 diam7 ke3 gai5(7) go1 bi5(7) diam3. gio3(2) lieu2(1) go1 bi5,",
-          "english": "We went to our usual café, ordered coffee,"
+          "teochew": "俺去了許間俺恁去個咖啡店，",
+          "chinese": "我们去了平时常去的咖啡店，",
+          "pinyin": "nang2 ke3(2) lieu1(7) he2(1) gni1 nang2 diam7 ke3 gai5(7) go1 bi5(7) diam3,",
+          "english": "We went to our usual café,"
+        },
+        {
+          "timestamp": "00:45",
+          "teochew": "叫了咖啡。",
+          "chinese": "点了咖啡。",
+          "pinyin": "gio3(2) lieu2(1) go1 bi5,",
+          "english": "and ordered coffee."
         },
         {
           "timestamp": "00:49",
-          "chinese": "lo-ti 還有半生熟個卵，頭食頭講話。",
-          "pinyin": "lo-ti huan1 u6(7) buan3(2) sén1 sêg8 gai5(7) nêng, tao5(7) ziah8 tao5(7) puêh8(4) uē7.",
-          "english": "ordered coffee, bread, and soft-boiled eggs, and chatted while eating."
+          "teochew": "lo-ti 還有半生熟個卵，",
+          "chinese": "还有半生熟的鸡蛋，",
+          "pinyin": "lo-ti huan1 u6(7) buan3(2) sén1 sêg8 gai5(7) nêng,",
+          "english": "and soft-boiled eggs,"
+        },
+        {
+          "timestamp": "00:55",
+          "teochew": "頭食頭講話。",
+          "chinese": "一边吃一边聊天。",
+          "pinyin": "tao5(7) ziah8 tao5(7) puêh8(4) uē7.",
+          "english": "we chatted while eating."
         }
       ]
     },
     {
       "id": 5,
-      "title": "Chinese Conversation",
+      "title": "teochew Conversation",
       "subtitle": "Lesson 5: A Sunday Walk",
       "audio": "/audio/Slide 21.mp4",
       "lines": [
         {
           "timestamp": "00:01",
-          "chinese": "伊咧伊只幾時做工有滴困乏，我就合佢咧：",
-          "pinyin": "i1 dan3 i1 zi2(1) gui2(6) si5 zo3(2) gang1 u6(7) dri4(8) gian2(3) hēg8, ua2 ziu6(7) gah4 i1 dan3:",
-          "english": "She said she had been feeling a bit tired from work these past few days, so I told her,"
+          "teochew": "伊咧伊只幾時做工有滴困乏，",
+          "chinese": "她说她这几天工作有点累，",
+          "pinyin": "i1 dan3 i1 zi2(1) gui2(6) si5 zo3(2) gang1 u6(7) dri4(8) gian2(3) hēg8,",
+          "english": "She said she had been feeling a bit tired from work recently,"
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "我就合佢咧：",
+          "chinese": "我就对她说：",
+          "pinyin": "ua2 ziu6(7) gah4 i1 dan3:",
+          "english": "so I told her:"
         },
         {
           "timestamp": "00:12",
-          "chinese": "“勿想了，禮拜日儂會使好休息一下。”",
-          "pinyin": "mai3(2) siong6 lieu2, loi2(1) bai3(2) rig8 nang2 oi6(7) sai2(1) ho2(2) ho2(3) hiu1 sêg4 zêg8(4) ē7.",
-          "english": "“Don’t worry about it, we can rest well on Sunday.”"
+          "teochew": "“勿想了，",
+          "chinese": "“别想了，",
+          "pinyin": "mai3(2) siong6 lieu2,",
+          "english": "“Don’t worry about it,"
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "禮拜日儂會使好休息一下。”",
+          "chinese": "星期天我们可以好好休息一下。”",
+          "pinyin": "loi2(1) bai3(2) rig8 nang2 oi6(7) sai2(1) ho2(2) ho2(3) hiu1 sêg4 zêg8(4) ē7.",
+          "english": "we can rest well on Sunday.”"
         },
         {
           "timestamp": "00:22",
-          "chinese": "食好早頓後，俺去只蹛近近個花園行行，",
-          "pinyin": "ziah8(4) ho2(1) za2(1) deng3 ao6, nang2 ke3(2) zi2(1) go3 geng6(7) geng6 gai5(7) hue1 hng5 gian5(7) gian5,",
-          "english": "After breakfast, we took a walk at the nearby park,"
+          "teochew": "食好早頓後，",
+          "chinese": "吃完早餐后，",
+          "pinyin": "ziah8(4) ho2(1) za2(1) deng3 ao6,",
+          "english": "After breakfast,"
+        },
+        {
+          "timestamp": "00:25",
+          "teochew": "俺去只蹛近近個花園行行，",
+          "chinese": "我们去附近的公园走走，",
+          "pinyin": "nang2 ke3(2) zi2(1) go3 geng6(7) geng6 gai5(7) hue1 hng5 gian5(7) gian5,",
+          "english": "we took a walk at the nearby park,"
         },
         {
           "timestamp": "00:32",
-          "chinese": "天時真好，日頭嘛唔熱，風也真涼。",
-          "pinyin": "tīn si5 zing1 ho2, rig8(4) tao5 ngam1 ngam1 ho2, huang1 ia7 zing1 liang5.",
-          "english": "The weather was really nice — the sun was just right, and the wind was cool."
+          "teochew": "天時真好，",
+          "chinese": "天气很好，",
+          "pinyin": "tīn si5 zing1 ho2,",
+          "english": "The weather was really nice,"
         },
         {
-          "timestamp": "00:41",
-          "chinese": "俺頭行頭講話，聯着有孥仔打球，",
-          "pinyin": "nang2 tao5(7) gian5 tao5(7) dan3(2) uē7, toin2(1) dioh8(4) u6(7) nou5 gian2 pah4(8) giu5,",
-          "english": "As we walked and talked, we saw some kids playing ball"
+          "timestamp": "00:35",
+          "teochew": "日頭嘛唔熱，",
+          "chinese": "太阳也不热，",
+          "pinyin": "rig8(4) tao5 ngam1 ngam1 ho2,",
+          "english": "the sun wasn't too hot,"
         },
         {
-          "timestamp": "00:50",
-          "chinese": "還有一對翁姐坐在長椅曬日。",
+          "timestamp": "00:39",
+          "teochew": "風也真涼。",
+          "chinese": "风也很凉。",
+          "pinyin": "huang1 ia7 zing1 liang5.",
+          "english": "and the wind was cool."
+        },
+        {
+          "timestamp": "00:42",
+          "teochew": "俺頭行頭講話，",
+          "chinese": "我们一边走一边聊天，",
+          "pinyin": "nang2 tao5(7) gian5 tao5(7) dan3(2) uē7,",
+          "english": "As we walked and talked,"
+        },
+        {
+          "timestamp": "00:45",
+          "teochew": "聯着有孥仔打球，",
+          "chinese": "看到有小孩在打球，",
+          "pinyin": "toin2(1) dioh8(4) u6(7) nou5 gian2 pah4(8) giu5,",
+          "english": "we saw some kids playing ball,"
+        },
+        {
+          "timestamp": "00:52",
+          "teochew": "還有一對翁姐坐在長椅曬日。",
+          "chinese": "还有一对夫妻坐在长椅上晒太阳。",
           "pinyin": "huan1 u6(7) zêg8(4) dui3 ang3 zia2 zo6(7) deng5(7) in2 pag8(4) rig8.",
           "english": "and a couple sitting on a bench sunbathing."
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Chinese Conversation",
+      "subtitle": "Lesson 6: Department Store Encounter",
+      "audio": "/audio/Slide 22.mp4",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "下昏俺去了百公司，",
+          "chinese": "下午我们去了百货公司，",
+          "pinyin": "e7 gua3 nang2 ke3(2) lieu2(1) beh4(8) gong1 si1,",
+          "english": "In the afternoon, we went to the department store,"
+        },
+        {
+          "timestamp": "00:05",
+          "teochew": "买了物件，",
+          "chinese": "买了东西，",
+          "pinyin": "bhoi2(1) lieu5 mueh8(4) gian6,",
+          "english": "bought a few things,"
+        },
+        {
+          "timestamp": "00:08",
+          "teochew": "还顺续买乜伊想要个杯。",
+          "chinese": "还顺便买了她想要的杯子。",
+          "pinyin": "huan1 sung5(7) sua3 bhoi2(1) koih4 i1 siong6(7) ain3 gai5(7) bué1",
+          "english": "and also picked up the cup she had been wanting to buy."
+        },
+        {
+          "timestamp": "00:16",
+          "teochew": "到下界三点出，",
+          "chinese": "到了下午三点，",
+          "pinyin": "gao3(2) e7 gua3 san1 diang2(1) cug4,",
+          "english": "Around 3 p.m.,"
+        },
+        {
+          "timestamp": "00:19",
+          "teochew": "俺遇着了我一個真久無遇个朋友，",
+          "chinese": "我们遇见了一个很久没见的朋友，",
+          "pinyin": "nang2 ngo6(7) dioh8(4) lieu2(1) ua2 zêg8(4) gai5(7) zing1 gu5 bho5(7) ngo6 gai5(7) pèng5(7) iu2,",
+          "english": "we ran into a friend I hadn’t seen in a long time."
+        },
+        {
+          "timestamp": "00:30",
+          "teochew": "我猛猛叫伊：",
+          "chinese": "我马上叫他：",
+          "pinyin": "ua2 men6 men6(7) gio3 i1(7):",
+          "english": "I quickly called out to him:"
+        },
+        {
+          "timestamp": "00:34",
+          "teochew": "“Ei！汝做咧會在只块？”",
+          "chinese": "“哎！你怎么也在这里？”",
+          "pinyin": "“Ei! lu2 zo3(2) ni oi6(7) do6(7) zi(1) go3?”",
+          "english": "“Hey! How come you are here too?”"
+        },
+        {
+          "timestamp": "00:39",
+          "teochew": "伊也想唔到，",
+          "chinese": "他也没想到，",
+          "pinyin": "i1 ia7 siong6(7) m6(7) gao3,",
+          "english": "He was surprised too,"
+        },
+        {
+          "timestamp": "00:43",
+          "teochew": "了俺就咧几句話，",
+          "chinese": "于是我们聊了几句，",
+          "pinyin": "lieu2 nang2 ziu6(7) dan3(2) gua8 gu8 ue7,",
+          "english": "and we chatted for a bit,"
+        },
+        {
+          "timestamp": "00:47",
+          "teochew": "敆有敆熱忱。",
+          "chinese": "谈得热热闹闹。",
+          "pinyin": "puêh8(4) u6 puêh8(4) bho5.",
+          "english": "It was a warm and lively chat."
+        },
+        {
+          "timestamp": "00:51",
+          "teochew": "暗夜俺就轉內戶，",
+          "chinese": "晚上我们就回家，",
+          "pinyin": "am3(2) mên5 nang2 ziu6(7) deng2(1) lai6 lieu2,",
+          "english": "In the evening, we went home,"
+        },
+        {
+          "timestamp": "00:55",
+          "teochew": "各儂各儂休息。",
+          "chinese": "各自休息。",
+          "pinyin": "gag4 nang5(7) gag4 nang5 hiu1 sêg4.",
+          "english": "and each took some time to rest."
+        }
+      ]
     }
-
   ]
 }
