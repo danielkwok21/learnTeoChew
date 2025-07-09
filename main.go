@@ -95,6 +95,36 @@ func main() {
 			"conversation": conversation,
 		})
 	})
+	r.POST("/conversation/:direction/:ID", func(c *gin.Context) {
+		direction := c.Param("direction")
+		_id := c.Param("ID")
+		id, err := strconv.Atoi(_id)
+		if err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"error": "Invalid conversation ID",
+			})
+			return
+		}
+
+		var targetConversation *Conversation
+		for i, conv := range database.Conversations {
+			if conv.ID == id {
+				if direction == "prev" && i > 0 {
+					targetConversation = &database.Conversations[i-1]
+				} else if direction == "next" && i < len(database.Conversations)-1 {
+					targetConversation = &database.Conversations[i+1]
+				}
+				break
+			}
+		}
+
+		if targetConversation == nil {
+			c.Redirect(http.StatusFound, fmt.Sprintf("/conversation/%d", id))
+			return
+		}
+
+		c.Redirect(http.StatusFound, fmt.Sprintf("/conversation/%d", targetConversation.ID))
+	})
 
 	// API endpoint to get available audio files
 	r.GET("/api/audio-files", func(c *gin.Context) {
