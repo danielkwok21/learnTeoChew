@@ -88,8 +88,6 @@ func main() {
 			}
 		}
 
-		fmt.Printf("%+v", conversation)
-
 		// Render template with data
 		c.HTML(http.StatusOK, "conversation.html", gin.H{
 			"conversation": conversation,
