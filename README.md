@@ -11,5 +11,5 @@ push to master
 
 # how to upload audio folder from local to production
 ```shell
-scp -r audio linode:~/learnTeochew/audio
+scp -r audio linode:~/learnTeochew
 ```

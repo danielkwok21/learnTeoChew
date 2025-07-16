@@ -1,3 +1,7 @@
 audio/
 .idea
 .DS_Store
+main
+nohup.out
+app.log
+cronhistory.txt
