@@ -97,6 +97,13 @@ func main() {
 	})
 	r.POST("/conversation/:direction/:ID", func(c *gin.Context) {
 		direction := c.Param("direction")
+		if direction != "prev" && direction != "next" {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"error": "Invalid direction parameter. Use 'prev' or 'next'.",
+			})
+			return
+		}
+
 		_id := c.Param("ID")
 		id, err := strconv.Atoi(_id)
 		if err != nil {

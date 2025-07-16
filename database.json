@@ -444,6 +444,199 @@
           "english": "I felt really happy."
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Chinese Conversation",
+      "subtitle": "Lesson 7: My Family",
+      "audio": "/audio/Lesson 3 (Slide 7).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "我有一个快乐的家庭。",
+          "chinese": "我有一个快乐的家庭。",
+          "pinyin": "ua2 u6(7) zeg8(4) gai5(7) kuai3(2) lag8 gai5(7) gê1 tèng1.",
+          "english": "I have a happy family."
+        },
+        {
+          "timestamp": "00:06",
+          "teochew": "家里有阿爸、阿妈、阿兄、阿妹、阿公",
+          "chinese": "家里有爸爸、妈妈、哥哥、妹妹、爷爷",
+          "pinyin": "gê1 lai6 u6(7) a1 ba5, a1 ma5, a1 hian1, a1 muê6, a1 gong1",
+          "english": "There are dad, mom, older brother, younger sister, and grandfather"
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "合我。",
+          "chinese": "和我。",
+          "pinyin": "gah4 ua2.",
+          "english": "and me."
+        },
+        {
+          "timestamp": "00:16",
+          "teochew": "阿爸是老君，阿妈是先生，",
+          "chinese": "爸爸是医生，妈妈是老师，",
+          "pinyin": "a1 ba5 si6(7) lao1 gung1, a1 ma5 si6(7) sing1 sên1,",
+          "english": "My dad is a doctor, my mom is a teacher,"
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "阿兄讀大學，阿妹讀細学，",
+          "chinese": "哥哥在读大学，妹妹在读小学，",
+          "pinyin": "a1 hian1 tag8(4) dai6(7) hag8, a1 muê6 tag8(4) soi3(2) hag8,",
+          "english": "My brother is in university, and my sister is in primary school,"
+        },
+        {
+          "timestamp": "00:28",
+          "teochew": "爷爷退休了。",
+          "chinese": "爷爷退休了。",
+          "pinyin": "a1 gong1 to3(2) hiun1 lieu2.",
+          "english": "My grandfather is retired."
+        },
+        {
+          "timestamp": "00:31",
+          "teochew": "我是一個学生。",
+          "chinese": "我是一名学生。",
+          "pinyin": "ua2 si6(7) zêg8(4) gai5(7) hag8(4) sêng1.",
+          "english": "I am a student."
+        },
+        {
+          "timestamp": "00:35",
+          "teochew": "我愛我個家儂，俺恆恆做䟘食饭、",
+          "chinese": "我爱我的家人，我们经常一起吃饭、",
+          "pinyin": "ua2 ain3 ua2 gai5(7) gê1 nang5, nang2 diam7 diam7 zo3(2) bu5(7) ziah8(4) bung7,",
+          "english": "I love my family. We often eat together,"
+        },
+        {
+          "timestamp": "00:42",
+          "teochew": "談話、睇戲，",
+          "chinese": "聊天、看电影，",
+          "pinyin": "puêh8(4) uê7, toin2(1) hi3,",
+          "english": "chat, watch movies,"
+        },
+        {
+          "timestamp": "00:45",
+          "teochew": "合會做䟘去公園行行。",
+          "chinese": "有时一起去公园散步。",
+          "pinyin": "gah4 oi6(7) zo3(2) bu5(7) ke3(2) gong1 hng5 gian5(7) gian5",
+          "english": "and sometimes go for walks in the park."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Chinese Conversation",
+      "subtitle": "Lesson 8: My Friends",
+      "audio": "/audio/Lesson 3 (Slide 8).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "除了家儂，我也有真敆好友。",
+          "chinese": "除了家人，我也有很多好朋友。",
+          "pinyin": "de7 lieu7 gê1 nang5, ua2 ia7 u6(7) zing1 zoi7 ho2(1) pēng5(7) iu2.",
+          "english": "Besides my family, I also have many good friends."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "俺做䟘讀書、做功課、耍遊戲。",
+          "chinese": "我们一起读书、做功课、玩游戏。",
+          "pinyin": "nang2 zo3(2) bu5(7) tag8(4) ze1, zo2 gang1 kue3, seng2(1) iu7 hin3",
+          "english": "We go to class, do homework, and play games together."
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "朋友对我好，我有问题时，伊儂会相輔我。",
+          "chinese": "朋友对我很好，我有问题时，他们会帮助我。",
+          "pinyin": "pēng5(7) iu2 dui1 ua2(6) ho2(3), ua2 u6(7) meng7 doi5 si5, i1 nang5(7) oi6(7) sio1 hu6(7) ua2.",
+          "english": "My friends are nice to me. When I have problems, they help me."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "我也會关心伊儂。",
+          "chinese": "我也会关心他们。",
+          "pinyin": "ua2 ia7 oi6(7) guang1 sim1 i1 nang5(7).",
+          "english": "I also care about them."
+        },
+        {
+          "timestamp": "00:26",
+          "teochew": "我覺得家儂合朋友真重要。",
+          "chinese": "我觉得家人和朋友很重要。",
+          "pinyin": "ua2 gag4 dég4 gê1 nang5 gah4 pēng5(7)",
+          "english": "I think family and friends are important."
+        },
+        {
+          "timestamp": "00:32",
+          "teochew": "伊儂會物我個生活愈更歡喜。",
+          "chinese": "他们让我生活更快乐。",
+          "pinyin": "iu2 zing1 dong6(7) iao3. i1 nang5(7) oi6(7) muêh8(4) ua2 gai5(7) sên1 uah8 ru2(1) gêng1 huan1 hi2",
+          "english": "They make my life happier."
+        },
+        {
+          "timestamp": "00:38",
+          "teochew": "俺會做䟘关心相輔，按呢俺個关系会愈愈愈好。",
+          "chinese": "我们会互相关心和帮助，这样我们的关系会越来越好。",
+          "pinyin": "nang2 dioh4 zo3(2) bu5(7) guang1 sim1 sio1 hu6, an1 ne1 nang2 gai5(7) guang1 hi6 oi6(7) ru2(6) lai5 ru2(6) ho2(3).",
+          "english": "We should care for and help each other, so our relationships can become better and better."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Chinese Conversation",
+      "subtitle": "Lesson 9: Talking About Family",
+      "audio": "/audio/Lesson 3 (Slide 20).wav",
+      "lines": [
+        {
+          "timestamp": "00:02",
+          "teochew": "汝好，阿财。汝禮拜日做乜也個？",
+          "chinese": "你好，阿财。你星期天做什么？",
+          "pinyin": "lu2 ho2, a1 cai5. lu2 loi2(1) bai3(2) rig8 zo3(2) mig4(8) gai5?",
+          "english": "Hi, A-Cai. What did you do over the Sunday?"
+        },
+        {
+          "timestamp": "00:08",
+          "teochew": "我轉老厝睇家儂。汝呢？",
+          "chinese": "我回老家看家人。你呢？",
+          "pinyin": "ua2 deng2(1) lao6(7) cu3 toin2(1) gê1 nang5. lu2 ne1?",
+          "english": "I went back to my hometown to see my family. How about you?"
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "我在內陪阿爸阿媽。你內有幾個儂？",
+          "chinese": "我在家陪爸爸妈妈。你家里有几个人？",
+          "pinyin": "ua2 do6(7) lai6 buê5(7) a1-ba5 a1-ma5. lu2 lai6 u6(7) gui2(1) gai5(7) nang5?",
+          "english": "I stayed home with my parents. How many people are in your family?"
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "我內有六個儂：阿公、阿嫲、阿爸、",
+          "chinese": "我家有六个人：爷爷、奶奶、爸爸、",
+          "pinyin": "ua2 lai6 u6(7) lag8(4) gai5(7) nang5: a1-gong1, a1-ma2, a1-ba5,",
+          "english": "There are six people in my family: grandpa, grandma, dad,"
+        },
+        {
+          "timestamp": "00:28",
+          "teochew": "阿媽、阿妹合我。",
+          "chinese": "妈妈、妹妹和我。",
+          "pinyin": "a1-ma5, a-muê6 gah4 ua2.",
+          "english": "mom, my younger sister, and me."
+        },
+        {
+          "timestamp": "00:32",
+          "teochew": "我儂做䟘企。",
+          "chinese": "我们住在一起。",
+          "pinyin": "nang2 zo3(2) bu5(7) kia6.",
+          "english": "We all live together."
+        },
+        {
+          "timestamp": "00:34",
+          "teochew": "真鬧熱！汝合阿妹感情好麼？",
+          "chinese": "真热闹！你和妹妹感情好吗？",
+          "pinyin": "zing1 lao7 riag8! lu2 gah4 a1-muê6 gam2(6) cêng5 ho2 mo2?",
+          "english": "So lively! Do you have a good relationship with your younger sister?"
+        }
+      ]
     }
+
   ]
 }
