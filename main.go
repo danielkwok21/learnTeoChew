@@ -154,10 +154,7 @@ func main() {
 
 	// Health check endpoint
 	r.GET("/health", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
-			"status":  "healthy",
-			"message": "Chinese Conversation Server is running",
-		})
+		c.JSON(http.StatusOK, nil)
 	})
 
 	r.Run(":8085")
