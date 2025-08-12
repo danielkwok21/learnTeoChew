@@ -22,7 +22,6 @@
         <div style="display:grid; grid-template-columns:1fr; gap:16px;">
             {{range .Conversations}}
             <a href="/conversation/{{.ID}}" style="display:block; padding:16px; background:#5c5c5c; border-radius:4px; box-shadow:0 1px 4px rgba(0,0,0,0.06); text-decoration:none; transition:box-shadow 0.2s;">
-                <h2 style="font-size:1.25rem; font-weight:600; margin:0 0 4px 0; color:white;">{{.Title}}</h2>
                 <p style="color:white; margin:0;">{{.Subtitle}}</p>
             </a>
             {{end}}

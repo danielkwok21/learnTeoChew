@@ -82,7 +82,6 @@
   },
     {
       "id": 2,
-      "title": "teochew Conversation",
       "subtitle": "Lesson 2: Catching Up",
       "audio": "/audio/Slide 3.wav",
       "lines": [
@@ -126,7 +125,6 @@
     },
     {
       "id": 3,
-      "title": "teochew Conversation",
       "subtitle": "Lesson 3: Shopping",
       "audio": "/audio/Slide 17.wav",
       "lines": [
@@ -164,7 +162,6 @@
     },
     {
       "id": 4,
-      "title": "teochew Conversation",
       "subtitle": "Lesson 4: Morning Plans",
       "audio": "/audio/Slide 20.mp4",
       "lines": [
@@ -242,7 +239,6 @@
     },
     {
       "id": 5,
-      "title": "teochew Conversation",
       "subtitle": "Lesson 5: A Sunday Walk",
       "audio": "/audio/Slide 21.mp4",
       "lines": [
@@ -334,7 +330,6 @@
     },
     {
       "id": 6,
-      "title": "Chinese Conversation",
       "subtitle": "Lesson 6: Department Store Encounter",
       "audio": "/audio/Slide 22.mp4",
       "lines": [
@@ -447,7 +442,6 @@
     },
     {
       "id": 7,
-      "title": "Chinese Conversation",
       "subtitle": "Lesson 7: My Family",
       "audio": "/audio/Lesson 3 (Slide 7).wav",
       "lines": [
@@ -525,7 +519,6 @@
     },
     {
       "id": 8,
-      "title": "Chinese Conversation",
       "subtitle": "Lesson 8: My Friends",
       "audio": "/audio/Lesson 3 (Slide 8).wav",
       "lines": [
@@ -582,7 +575,6 @@
     },
     {
       "id": 9,
-      "title": "Chinese Conversation",
       "subtitle": "Lesson 9: Talking About Family",
       "audio": "/audio/Lesson 3 (Slide 20).wav",
       "lines": [
@@ -636,7 +628,281 @@
           "english": "So lively! Do you have a good relationship with your younger sister?"
         }
       ]
+    },
+    {
+      "id": 10,
+      "subtitle": "Lesson 10: Shapes and colors",
+      "audio": "/audio/Lesson 4 (Slide 3).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "你舒甲乜个色？",
+          "chinese": "你喜欢什么颜色？",
+          "pinyin": "lu2 su1 gah4 mih4(8) gai5(7) sêg4?",
+          "english": "What color do you like?"
+        },
+        {
+          "timestamp": "00:05",
+          "teochew": "我舒甲蓝色。",
+          "chinese": "我喜欢蓝色。",
+          "pinyin": "ua2 su1 gah4 nam5(7) sêg4.",
+          "english": "I like blue."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "你呢？",
+          "chinese": "你呢？",
+          "pinyin": "lu2 nê1?",
+          "english": "How about you?"
+        },
+        {
+          "timestamp": "00:09",
+          "teochew": "我舒甲红色合黄色。",
+          "chinese": "我喜欢红色和黄色。",
+          "pinyin": "ua2 su1 gah4 ang5(7) sêg4 gah4 ng5(7) sêg4.",
+          "english": "I like red and yellow."
+        },
+        {
+          "timestamp": "00:13",
+          "teochew": "汝舒甲乜个形？",
+          "chinese": "你喜欢什么形状？",
+          "pinyin": "lu2 su1 gah4 mih4(8) gai5(7) hêng5?",
+          "english": "What shape do you like?"
+        },
+        {
+          "timestamp": "00:17",
+          "teochew": "我舒甲圆形。",
+          "chinese": "我喜欢圆形。",
+          "pinyin": "ua2 su1 gah4 in5(7) hêng5.",
+          "english": "I like circles."
+        },
+        {
+          "timestamp": "00:20",
+          "teochew": "因为伊睇起来真趣味。",
+          "chinese": "因为它看起来很可爱。",
+          "pinyin": "ing1 ui7 i1 toin2(1) ki2(3) lai5(7) zing1 cu3(2) bhî7.",
+          "english": "Because they look cute."
+        },
+        {
+          "timestamp": "00:25",
+          "teochew": "我也是！",
+          "chinese": "我也是！",
+          "pinyin": "ua2 ia7 si6!",
+          "english": "Me too!"
+        },
+        {
+          "timestamp": "00:27",
+          "teochew": "汝睇，许个是一粒蓝色个圆形。",
+          "chinese": "你看，那是一个蓝色的圆形。",
+          "pinyin": "lu2 toin2, he2 gai5 si6(7) zeg8(4) gai5(7) nam5(7) sêg4 gai5(7) in5(7) hêng5.",
+          "english": "Look, that’s a blue circle."
+        },
+        {
+          "timestamp": "00:34",
+          "teochew": "着！坪畔许个红色是三角形？",
+          "chinese": "对！旁边那个红色的是三角形吗？",
+          "pinyin": "dioh8! pian5(7) bain5 he2 gai5(7) ang5(7) sêg4 ka2(1)-si5(7) san1 gag4(8) hêng5?",
+          "english": "Right! Is that red one next to it a triangle?"
+        },
+        {
+          "timestamp": "00:40",
+          "teochew": "唔是，许个是红色个四方形。",
+          "chinese": "不是，那个是红色的四方形。",
+          "pinyin": "m6(7)-si6, he2 gai5 si6(7) ang5(7) sêg4 gai5(7) si3(2) bang1 hêng5.",
+          "english": "No, that’s a red square."
+        },
+        {
+          "timestamp": "00:47",
+          "teochew": "哎，我睇sa-la了。",
+          "chinese": "哦，我看错了。",
+          "pinyin": "O, ua2 toin2(1) sa-la lieu2.",
+          "english": "Oh, I saw it wrong."
+        },
+        {
+          "timestamp": "00:51",
+          "teochew": "按呢汝觉得绿色个长方形做物？",
+          "chinese": "那么你觉得绿色的长方形怎么样？",
+          "pinyin": "an1-ne1 lu2 gag4(8) dêg4 cên1 sêg4 gai5(7) si3(2) bang1 hêng5 zo3(2) muêh8?",
+          "english": "What do you think of the green rectangle?"
+        },
+        {
+          "timestamp": "00:57",
+          "teochew": "我觉得真好睇。",
+          "chinese": "我觉得很好看。",
+          "pinyin": "ua2 gag4(8) dêg4 zing1 ho2(6) toin2(3).",
+          "english": "I think it looks nice."
+        },
+        {
+          "timestamp": "01:01",
+          "teochew": "色合形状真雅！",
+          "chinese": "颜色和形状很漂亮！",
+          "pinyin": "sêg4 gah4 hêng5 zing1 ngia2!",
+          "english": "Both the color and the shape are beautiful!"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "subtitle": "Lesson 11: A Day in the Park",
+      "audio": "/audio/Lesson 4 (Slide 17).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "今天我去公园。",
+          "chinese": "今天我去公园。",
+          "pinyin": "gim1 rig8 ua2 ke3(2) gong1 hng5.",
+          "english": "Today I went to the park."
+        },
+        {
+          "timestamp": "00:03",
+          "teochew": "睇着了真㩼物件。",
+          "chinese": "看到了很多东西。",
+          "pinyin": "toin2(1) dioh8(4) lieu2(1) zing1 zoi7 muêh8(4) gian6.",
+          "english": "I saw many things."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "这个花园有真㩼花。",
+          "chinese": "这个花园有很多花。",
+          "pinyin": "zi2(1) gai5(7) huê1 hng5 u6(7) zing1 zoi7 huê1.",
+          "english": "This garden has many flowers."
+        },
+        {
+          "timestamp": "00:11",
+          "teochew": "花是红色合黄色个。",
+          "chinese": "花是红色和黄色的。",
+          "pinyin": "huê1 si6(7) ang5(7) sêg4 gah4 ng5(7) sêg4 gai5.",
+          "english": "The flowers are red and yellow."
+        },
+        {
+          "timestamp": "00:16",
+          "teochew": "许撮树有绿色的叶。",
+          "chinese": "那些树有绿色的叶子。",
+          "pinyin": "he2 coh4 ciu7 u6(7) cen1 sêg4 gai5(7) hioh8.",
+          "english": "Those trees have green leaves."
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "睇起来真舒服。",
+          "chinese": "看起来很舒服。",
+          "pinyin": "toin2(1) ki2(3) lai5(7) zing1 su1 hoh8.",
+          "english": "They look very nice."
+        },
+        {
+          "timestamp": "00:24",
+          "teochew": "我睇着一个蓝色个四方盒。",
+          "chinese": "我看到一个蓝色的方盒子。",
+          "pinyin": "ua2 toin2(1) dioh4 zêg8(4) gai5(7) nam5(7) sêg4 gai5(7) si3(2) bang1 ab8.",
+          "english": "I saw a blue square box."
+        },
+        {
+          "timestamp": "00:31",
+          "teochew": "放在高椅上。",
+          "chinese": "放在高高的椅子上。",
+          "pinyin": "bang3(2) do6(7) gao1 in2(6) deng2(3).",
+          "english": "It was on a chair."
+        },
+        {
+          "timestamp": "00:34",
+          "teochew": "我唔知是底滇个。",
+          "chinese": "我不知道是谁的。",
+          "pinyin": "ua2 m6(7) zai1 si6(7) di7 diang1 gai5.",
+          "english": "I didn’t know whose it was."
+        },
+        {
+          "timestamp": "00:38",
+          "teochew": "我问：只个是底滇个盒？",
+          "chinese": "我问：这个是谁的盒子？",
+          "pinyin": "ua2 meng7: “zi2(1) gai5 si6(7) di7 diang1 gai5(7) ab8?”",
+          "english": "I asked, 'Whose box is this?'"
+        },
+        {
+          "timestamp": "00:43",
+          "teochew": "一个孥囝呾：是我个！",
+          "chinese": "一个孩子说：是我的！",
+          "pinyin": "zêg8(4) gai5(7) nou5 gian2 dan3: “si6(7) ua2 gai5!”",
+          "english": "A child said, 'It’s mine!'"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "subtitle": "Lesson 12: Shapes and Colors",
+      "audio": "/audio/Lesson 4 (Slide 18).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "我還睇着一撮畫圖。",
+          "chinese": "我还看了一些画。",
+          "pinyin": "ua2 huan1 toin2(1) dioh4 zêg8(4) coh4 uê7 dou5.",
+          "english": "I also saw some paintings."
+        },
+        {
+          "timestamp": "00:04",
+          "teochew": "只撮画有圆形、三角形合四方形。",
+          "chinese": "这些画有圆形、三角形和方形。",
+          "pinyin": "zi2(1) coh4 uê7 dou5 u6(7) in5(7) hêng5, san1 gag4(8) hêng5 gah4 si3(2) bang1 hêng5.",
+          "english": "These paintings had circles, triangles, and squares."
+        },
+        {
+          "timestamp": "00:12",
+          "teochew": "色也真㩼。",
+          "chinese": "颜色也很多。",
+          "pinyin": "sêg4 ia7 zing1 zoi7.",
+          "english": "There were many colors too."
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "有粉红色、柑色和灰色。",
+          "chinese": "有粉红色、橙色和灰色。",
+          "pinyin": "u6(7) hung2(1) ang5(7) sêg4, gan1 sêg4 gah4 huê1 sêg4.",
+          "english": "Like pink, orange, and gray."
+        },
+        {
+          "timestamp": "00:20",
+          "teochew": "我觉得真雅。",
+          "chinese": "我觉得很漂亮。",
+          "pinyin": "ua2 gag4(8) dêg4 zing1 ngia2.",
+          "english": "I thought they were very beautiful."
+        },
+        {
+          "timestamp": "00:23",
+          "teochew": "我舒甲色和形状。",
+          "chinese": "我喜欢颜色和形状。",
+          "pinyin": "ua2 su1-gah4 sêg4 gah4 hêng5(7) zuang6.",
+          "english": "I like colors and shapes."
+        },
+        {
+          "timestamp": "00:27",
+          "teochew": "因为伊儂物世界愈更雅。",
+          "chinese": "因为它们让世界更漂亮。",
+          "pinyin": "ing1 ui7 i1 nang5 muêh8(4) si3(2) gai3 ru2(1) gêng1 ngia2.",
+          "english": "Because they make the world more beautiful."
+        },
+        {
+          "timestamp": "00:32",
+          "teochew": "汝觉得乜个色上特别？",
+          "chinese": "你觉得哪个颜色最特别？",
+          "pinyin": "lu2 gag4(8) dêg4 mih4(8) gai5(7) sêg4 siang5(7) dêg8(4) biag8?",
+          "english": "Which color do you think is the most special?"
+        },
+        {
+          "timestamp": "00:37",
+          "teochew": "我觉得每个颜色真特别。",
+          "chinese": "我觉得每个颜色都很特别。",
+          "pinyin": "ua2 gag4(8) dêg4 muê2(1) gai5(7) sêg4 zing1 dêg8(4) biag8.",
+          "english": "I think every color is special."
+        },
+        {
+          "timestamp": "00:42",
+          "teochew": "每个形状有用处。",
+          "chinese": "每个形状都有用处。",
+          "pinyin": "muê2(1) gai5(7) hêng5(7) zuang6 u6(7) êng7 cu3.",
+          "english": "And every shape is useful."
+        }
+      ]
     }
+
 
   ]
 }

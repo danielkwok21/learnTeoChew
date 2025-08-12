@@ -17,7 +17,6 @@ type Database struct {
 
 type Conversation struct {
 	ID       int    `json:"id"`
-	Title    string `json:"title"`
 	Subtitle string `json:"subtitle"`
 	Audio    string `json:"audio"`
 	Lines    []Line `json:"lines"`
