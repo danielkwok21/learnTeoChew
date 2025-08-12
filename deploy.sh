@@ -25,6 +25,10 @@ local_commit=$(git rev-parse HEAD)
 if [ "$remote_commit" != "$local_commit" ]; then
     echo "New commit detected. Pulling and rebuilding..."
     git pull origin master
+
+    # kill existing process else will not be able to restart it
+    fuser -k 8085/tcp
+
     go build -o main main.go
     nohup ./main > app.log 2>&1 &
     echo "App rebuilt and running in background."
