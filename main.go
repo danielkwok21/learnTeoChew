@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
@@ -59,6 +60,11 @@ func main() {
 		type PageData struct {
 			Conversations []Conversation
 		}
+
+		// sort descending
+		sort.Slice(database.Conversations, func(i, j int) bool {
+			return database.Conversations[i].ID > database.Conversations[j].ID
+		})
 
 		pageData := PageData{
 			Conversations: database.Conversations,
