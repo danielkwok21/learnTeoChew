@@ -789,7 +789,7 @@
           "english": "They look very nice."
         },
         {
-          "timestamp": "00:24",
+          "timestamp": "00:25",
           "teochew": "我睇着一个蓝色个四方盒。",
           "chinese": "我看到一个蓝色的方盒子。",
           "pinyin": "ua2 toin2(1) dioh4 zêg8(4) gai5(7) nam5(7) sêg4 gai5(7) si3(2) bang1 ab8.",
@@ -817,7 +817,7 @@
           "english": "I asked, 'Whose box is this?'"
         },
         {
-          "timestamp": "00:43",
+          "timestamp": "00:44",
           "teochew": "一个孥囝呾：是我个！",
           "chinese": "一个孩子说：是我的！",
           "pinyin": "zêg8(4) gai5(7) nou5 gian2 dan3: “si6(7) ua2 gai5!”",
@@ -901,8 +901,314 @@
           "english": "And every shape is useful."
         }
       ]
+    },
+    {
+      "id": 13,
+      "subtitle": "Lesson 13: A Workday Routine",
+      "audio": "/audio/Lesson 5 (Slide 4).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "只陣是2025年6月28號，拜六。",
+          "chinese": "现在是2025年6月28日，星期六。",
+          "pinyin": "zi6 zung1 si6(7) ri6(7) kang1(3) ri6(7) ngou6 lag8 ghuêh8(4) ri6(7) zab8(4) boih4(8) ho7, bai3(2) lag8.",
+          "english": "Now it is June 28, 2025, Saturday."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "虽然今日放假，",
+          "chinese": "虽然今天放假，",
+          "pinyin": "sui1 riang5 gim1 rig8 bang3(2) gê3.",
+          "english": "Although today is a holiday,"
+        },
+        {
+          "timestamp": "00:10",
+          "teochew": "但是我逐日做工个时间合安排攏差唔多。",
+          "chinese": "但是我每天上班的时间和安排都差不多。",
+          "pinyin": "dang6(7) si6(7) ua2 dag8(4) rig8 zo3(2) gang1 gai5(7) si5(7) gang1 gah4 ang1 bai5 long6 ca1 m6(7) do1.",
+          "english": "My daily work schedule and routine are almost the same."
+        },
+        {
+          "timestamp": "00:18",
+          "teochew": "無乜个特别个。",
+          "chinese": "没有什么特别的。",
+          "pinyin": "bho5(7) mih4(8) gai5(7) dêg8(4) biag8 gai5.",
+          "english": "There is nothing very special."
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "逐日早起七点我走醒。",
+          "chinese": "每天早上七点我起床。",
+          "pinyin": "dag8(4) rig8 za2(6) ki2(3) cêg4(8) diang2 ua2 zao2(6) cên2(3).",
+          "english": "Every morning at seven I wake up."
+        },
+        {
+          "timestamp": "00:26",
+          "teochew": "七点半出门。",
+          "chinese": "七点半出门。",
+          "pinyin": "cêg4(8) diang2(1) buan3 cug4(8) mung5.",
+          "english": "At half past seven, I leave home."
+        },
+        {
+          "timestamp": "00:29",
+          "teochew": "八点出到公司。",
+          "chinese": "八点左右到公司。",
+          "pinyin": "boih4(8) diang2(1) cug4 gao3(2) gong1 si1.",
+          "english": "Around eight, I reach the office."
+        },
+        {
+          "timestamp": "00:33",
+          "teochew": "到我个做工位，我会先开电脑。",
+          "chinese": "到办公桌，我会先打开电脑。",
+          "pinyin": "gao3(2) ua2 gai6(7) zo3(2) gang1 ui7, ua2 oi6(7) soin1 kui1 diang6(7) nao2.",
+          "english": "At my desk, I first turn on the computer."
+        },
+        {
+          "timestamp": "00:39",
+          "teochew": "查睇有信入无。",
+          "chinese": "查看有没有邮件。",
+          "pinyin": "cê5(7) toin2(1) u6(7) sêng3 rib8 bho5.",
+          "english": "I check if there are emails."
+        },
+        {
+          "timestamp": "00:42",
+          "teochew": "了开始安排许日个工。",
+          "chinese": "然后开始安排当天的工作。",
+          "pinyin": "liou2 kai1 si2 ang1 bai5(7) hê2(6) rig8 gai5(7) gang1.",
+          "english": "Then I arrange the day's work."
+        },
+        {
+          "timestamp": "00:48",
+          "teochew": "十一点我在睇文件，写物件。",
+          "chinese": "十一点我都在看文件，写东西。",
+          "pinyin": "zab8(4) êg4(8) diang2 ua2 lo1 toin2(1) bhung5(7) gian6, sia2(1) muêh8(4) gian6.",
+          "english": "At eleven, I read documents and write."
+        },
+        {
+          "timestamp": "00:54",
+          "teochew": "有时会开会。",
+          "chinese": "有时候会开会。",
+          "pinyin": "u6(7) si5 oi6(7) kui1 huê6.",
+          "english": "Sometimes I have meetings."
+        },
+        {
+          "timestamp": "00:57",
+          "teochew": "十二点了，我合同事做瓠食饭。",
+          "chinese": "十二点了，我和同事一起吃饭。",
+          "pinyin": "zab8(4) ri6(7) diang2 liou2, ua2 gah4 dang5(7) su7 zo3(2) bu5(7) ziah8(4) bung7.",
+          "english": "At twelve, I eat lunch with colleagues."
+        },
+        {
+          "timestamp": "01:03",
+          "teochew": "休息到一点。",
+          "chinese": "休息到一点。",
+          "pinyin": "hiun1 sêg4 gao3(2) êg4(8) diang2(3).",
+          "english": "We rest until one o’clock."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "subtitle": "Lesson 13: A Workday Routine (Afternoon & Evening)",
+      "audio": "/audio/Lesson 5 (Slide 5).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "食下界後我有时會敲電話。",
+          "chinese": "下午有时候会讲电话。",
+          "pinyin": "ziah8(4) e7 gua3 ao6 ua2 u6(7) si5 oi6(7) ka3(2) diang6(7) uê7.",
+          "english": "In the afternoon, I sometimes make phone calls."
+        },
+        {
+          "timestamp": "00:06",
+          "teochew": "也會帖明日愛用个物件。",
+          "chinese": "也会整理明天要用的东西。",
+          "pinyin": "ia7 oi6(7) tiag4 ma2 rig8 ain3(2) êng7 gai5(7) muêh8(4) gian6.",
+          "english": "I also prepare the things I need for tomorrow."
+        },
+        {
+          "timestamp": "00:10",
+          "teochew": "到五点半，我就放工轉內了。",
+          "chinese": "到五点半，我就下班回家了。",
+          "pinyin": "gao3(2) ngou6(7) diang2(1) buan3, ua2 ziu6(7) bang3(2) gang1 deng2(1) lai6 lieu2.",
+          "english": "At five thirty, I finish work and go home."
+        },
+        {
+          "timestamp": "00:16",
+          "teochew": "那是还有力，我會去运动三十分钟。",
+          "chinese": "如果还有力气，我会去运动三十分钟。",
+          "pinyin": "na2(3) si6(7) huan1 u6(7) lag8, ua2 oi6(7) ke3(2) ung7 dong6 san1 zab8(4) hung1 zeng1.",
+          "english": "If I still have energy, I exercise for thirty minutes."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "暗夜七点半食饭。",
+          "chinese": "晚上七点半吃饭。",
+          "pinyin": "am3(2) mên5 ceg4(8) diang2(1) buan3 ziah8(4) bung7.",
+          "english": "At seven thirty in the evening, I eat dinner."
+        },
+        {
+          "timestamp": "00:26",
+          "teochew": "了就看看电视，听听歌一下。",
+          "chinese": "然后就看看电视，听听歌一下。",
+          "pinyin": "liao2 ziu6(7) toin2(1) toin2(1) diang6(7) si6, tian1 tian1 go1 zêg8(4) ê7.",
+          "english": "Then I watch TV and listen to some music."
+        },
+        {
+          "timestamp": "00:32",
+          "teochew": "十点半左右，我就会去夗。",
+          "chinese": "十点半左右，我就会去睡觉。",
+          "pinyin": "zab8(4) diang2(1) buan3 zo2 iu6, ua2 ziu6(7) oi6(7) ke3(2) ug8.",
+          "english": "Around ten thirty, I go to bed."
+        },
+        {
+          "timestamp": "00:37",
+          "teochew": "只陣六月尾了，我觉得时间过了真猛。",
+          "chinese": "现在六月尾了，我觉得时间过得真快。",
+          "pinyin": "zi2(6) zung5 lag8(4) ghuêh8(4) bhuê2 lieu2, ua2 gag4(8) dêg4 si5(7) gang1 guê3(2) lieu2(1) zing1 mên2.",
+          "english": "Now it is the end of June, and I feel time passes very quickly."
+        },
+        {
+          "timestamp": "00:45",
+          "teochew": "希望加幾個月个2025年會愈來愈好。",
+          "chinese": "希望多几个月的2025年会越来越好。",
+          "pinyin": "hi1 mo7 gê1 gui2(1) gai5(1) ghuêh8 gai5(7) ri6(7) kang1(3) ri6(7) ngou6(7) ni5 oi6(7) ru2(6) lai5 ru2(6) ho2(3).",
+          "english": "I hope the rest of 2025 will get better and better."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "subtitle": "Lesson 14: What Day is It?",
+      "audio": "/audio/Lesson 5 (Slide 18).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "只陣是幾號？我只幾時惦惦𠁞記得今日幾號。",
+          "chinese": "现在是几号？我最近常常忘记今天是几号。",
+          "pinyin": "zi2(6) zung5 si6(7) gui2(1) ho7? ua2 zi2(1) gui2(6) si5 diam3 diam3 bhoi6(7) gi4(8) dêg4 gim1 rig8 gui2(1) ho7.",
+          "english": "What date is it today? Recently I often forget the date."
+        },
+        {
+          "timestamp": "00:08",
+          "teochew": "今日是六月二十八號，拜六，汝豈是真無閑？",
+          "chinese": "今天是6月28号，星期六～你是不是太忙了吧？",
+          "pinyin": "gim1 rig8 si6(7) lag8 ghuêh8(4) ri6(7) zab8(4) boih4(8) ho7, bai3(2) lag8, lu2 ka2(1) si6(7) zing1 bho5(7) oin5?",
+          "english": "Today is June 28th, Saturday. Are you really that busy?"
+        },
+        {
+          "timestamp": "00:16",
+          "teochew": "有影無？我想今日拜五啢……",
+          "chinese": "真的假的，我还以为今天才星期五……",
+          "pinyin": "u6(7) ian2 bho5? ua2 sion6(7) da1(7) gim1 rig8 bai3(2) ngou6 nia7.",
+          "english": "Really? I thought today was Friday..."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "汝是佮乏了𠁞？昨日豈是做工到真暗？",
+          "chinese": "你是太累了吧？昨天是不是加班到很晚？",
+          "pinyin": "lu2 si6(7) kah4 hêg8 liao2 bhoi6? za2(1) rig8 ka2(1) si6(7) zo3(2) gang1 gao3(2) zing1 am3?",
+          "english": "You must be exhausted. Did you work overtime until late yesterday?"
+        },
+        {
+          "timestamp": "00:30",
+          "teochew": "是阿，昨日做工到十點。頭有滴囝暈。汝昨日做乜個？",
+          "chinese": "对啊，昨天忙到十点，头都晕了。你昨天做什么？",
+          "pinyin": "si6 a1, za2(1) rig8 zo3(2) gang1 gao3(2) zab8(4) diang2. tao5 u6(7) dih4(8) gian2(3) hing5. lu2 za2(1) rig8 zo3(2) mih4(8) gai5?",
+          "english": "Yeah, I worked until ten yesterday, my head was spinning. What about you?"
+        },
+        {
+          "timestamp": "00:42",
+          "teochew": "我昨日請假，一日在內休息。",
+          "chinese": "我昨天请假，一整天在家休息。",
+          "pinyin": "ua2 za2(1) rig8 cian2(6) gian2(3), zêg8(4) rig8 do6(7) lai6 hiu1 sêg4.",
+          "english": "I took the day off yesterday and rested at home."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "subtitle": "Lesson 15: Weekend Plans",
+      "audio": "/audio/Lesson 5 (Slide 19).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "按呢汝明日有事無？",
+          "chinese": "那你明天有事吗？",
+          "pinyin": "an1 ne1 lu2 man2 rig8 u6(7) su7 bho5?",
+          "english": "So, do you have plans tomorrow?"
+        },
+        {
+          "timestamp": "00:04",
+          "teochew": "我應該陪阿爸阿媽去買物件。汝呢？",
+          "chinese": "我应该陪我爸妈去买东西。你呢？",
+          "pinyin": "ua2 êng3(2) gai1 buê5(7) a1 ba1 a1 ma1 ke3(2) bhoi2(1) muêh8(4) gian6. lu2 ne1?",
+          "english": "I should go shopping with my parents. How about you?"
+        },
+        {
+          "timestamp": "00:13",
+          "teochew": "我會在內休息。只幾時真實是真乏。",
+          "chinese": "我会在家休息。这几天真的很累。",
+          "pinyin": "ua2 oi6(7) do6(7) lai6 hiu1 sêg4. zi2(1) gui2(6) si5 zêng1 sêg8 si6(7) zing1 hêg8.",
+          "english": "I’ll just rest at home. These past few days have been exhausting."
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "按呢汝記得後日着愛去公司，早起九點有開會。",
+          "chinese": "那你记得后天要去公司，早上九点有开会。",
+          "pinyin": "an1 ne1 lu2 gi3(2) dêg4 ao6 rig8(4) dioh4 ain3(2) ke3(2) gong1 si1, za2(6) ki2(3) gao2(6) diang2(3) u6(7) kui1 huê6.",
+          "english": "Then don’t forget, the day after tomorrow you need to go to the office, there’s a meeting at 9am."
+        },
+        {
+          "timestamp": "00:33",
+          "teochew": "是阿，後日是拜一。我真實無愛去。",
+          "chinese": "对哦，后天礼拜一。我真的不想去。",
+          "pinyin": "si6 a1, ao6 rig8(4) si6(7) bai3(2) êg4. ua2 zêng1 sêg8 bho5(7) ain3(2) ke3.",
+          "english": "Right, the day after tomorrow is Monday. I really don’t want to go."
+        },
+        {
+          "timestamp": "00:41",
+          "teochew": "汝下個禮拜個時間表睇𠁞？",
+          "chinese": "你下礼拜时间表看了吗？",
+          "pinyin": "lu2 ê6(7) gai5(7) loi2(1) bai3 gai5(7) si5(7) gang1 biao2 toin2 bhoi6(7)?",
+          "english": "Have you checked your schedule for next week?"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "subtitle": "Lesson 16: Busy Schedules",
+      "audio": "/audio/Lesson16.wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "睇了，我個時間排到滿滿了",
+          "chinese": "看了，我的时间排满满的。",
+          "pinyin": "toin2 liao2, ua2 gai5(7) si5(7) gang1 bai5(7) gao3(2) muan2(6) muan2(3) liao2",
+          "english": "I saw it, my schedule is completely packed."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "我也是，下個禮拜逐日有事。",
+          "chinese": "我也是，下周几乎天天有事。",
+          "pinyin": "ua2 ia7 si6, ê6(7) gai5(7) loi2(1) bai3 dag8(4) rig8 u6(7) su7",
+          "english": "Me too, next week I’m busy almost every day."
+        },
+        {
+          "timestamp": "00:12",
+          "teochew": "只幾時時間過了真猛，覺得昨日扒魯正拜一啢",
+          "chinese": "最近时间真的过很快，感觉昨天才刚礼拜一。",
+          "pinyin": "zi2(1) gui2(6) si5 si5(7) gang1 guê3(2) liao2(1) zing1 mên2, gag4 dêg4 za2(1) rig8 ba1(3) lu2 zian1 bai3(2) êg4 nia7",
+          "english": "Lately time has really flown, it feels like yesterday was just Monday."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "是阿。加一下又愛月尾了。希望七月會使慢滴囝",
+          "chinese": "是啊，多一下又要月底了。希望七月可以慢一点来。",
+          "pinyin": "si6 a1。gê1 zêg8(4) ê6(7) iu6(7) ain3(2) ghuêh8(4) bhuê2 liao2. hi1 mo7 cêg4(8) ghuêh8(4) oi6(7) sai2(1) mang7 dih4(8) gian2",
+          "english": "Yeah, soon it’ll be the end of the month again. I hope July comes a little slower."
+        }
+      ]
     }
-
-
   ]
 }
