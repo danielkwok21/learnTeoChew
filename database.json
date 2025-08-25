@@ -1084,7 +1084,7 @@
       "lines": [
         {
           "timestamp": "00:01",
-          "teochew": "只陣是幾號？我只幾時惦惦𠁞記得今日幾號。",
+          "teochew": "只陣是幾號？我只幾時惦惦不記得今日幾號。",
           "chinese": "现在是几号？我最近常常忘记今天是几号。",
           "pinyin": "zi2(6) zung5 si6(7) gui2(1) ho7? ua2 zi2(1) gui2(6) si5 diam3 diam3 bhoi6(7) gi4(8) dêg4 gim1 rig8 gui2(1) ho7.",
           "english": "What date is it today? Recently I often forget the date."
@@ -1105,7 +1105,7 @@
         },
         {
           "timestamp": "00:22",
-          "teochew": "汝是佮乏了𠁞？昨日豈是做工到真暗？",
+          "teochew": "汝是佮乏了吧？昨日豈是做工到真暗？",
           "chinese": "你是太累了吧？昨天是不是加班到很晚？",
           "pinyin": "lu2 si6(7) kah4 hêg8 liao2 bhoi6? za2(1) rig8 ka2(1) si6(7) zo3(2) gang1 gao3(2) zing1 am3?",
           "english": "You must be exhausted. Did you work overtime until late yesterday?"
@@ -1168,7 +1168,7 @@
         },
         {
           "timestamp": "00:41",
-          "teochew": "汝下個禮拜個時間表睇𠁞？",
+          "teochew": "汝下個禮拜個時間表睇吗？",
           "chinese": "你下礼拜时间表看了吗？",
           "pinyin": "lu2 ê6(7) gai5(7) loi2(1) bai3 gai5(7) si5(7) gang1 biao2 toin2 bhoi6(7)?",
           "english": "Have you checked your schedule for next week?"
@@ -1207,6 +1207,279 @@
           "chinese": "是啊，多一下又要月底了。希望七月可以慢一点来。",
           "pinyin": "si6 a1。gê1 zêg8(4) ê6(7) iu6(7) ain3(2) ghuêh8(4) bhuê2 liao2. hi1 mo7 cêg4(8) ghuêh8(4) oi6(7) sai2(1) mang7 dih4(8) gian2",
           "english": "Yeah, soon it’ll be the end of the month again. I hope July comes a little slower."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "subtitle": "Lesson 17: Talking About the Weather",
+      "audio": "/audio/Lesson 6 (slide 3).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "今日天時在生？",
+          "chinese": "今天天气怎么样？",
+          "pinyin": "gim1 rig8 tin1 si5 zai6(7) sên1?",
+          "english": "How’s the weather today?"
+        },
+        {
+          "timestamp": "00:04",
+          "teochew": "今日真热，日頭好大！",
+          "chinese": "今天很热，太阳好大！",
+          "pinyin": "gim1 rig8 zing1 ruah8, rig8(4) tao5 hoh4 dua7!",
+          "english": "It’s really hot today, the sun is blazing!"
+        },
+        {
+          "timestamp": "00:09",
+          "teochew": "是阿，我出门就流汗了。",
+          "chinese": "真的，我一出门就流汗了。",
+          "pinyin": "si6 a1, ua2 cug4(8) meng5 ziu6(7) lao5(7) guan7 liao2.",
+          "english": "Yeah, I started sweating as soon as I stepped outside."
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "汝有扎帽無？",
+          "chinese": "你有没有带帽子？",
+          "pinyin": "lu2 u6(7) zag4 bho7 bho5?",
+          "english": "Did you bring a hat?"
+        },
+        {
+          "timestamp": "00:17",
+          "teochew": "無，我唔記得扎 。",
+          "chinese": "没有，我忘了带。",
+          "pinyin": "bho5, ua2 m6(7) gi3(2) dêg4 zag4",
+          "english": "No, I forgot to bring one."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "按呢汝愛食佮㩼水，阿無會覺得不舒服",
+          "chinese": "那你要多喝水，不然会觉得不舒服哦！",
+          "pinyin": "an1 ne1 lu2 ain3(2) ziah8(4) kah4(8) zoi7 zui2, a1(7) bho5 oi6(7) gag4(8) dêg4 bhoi6(7) su1 hog8",
+          "english": "Then you should drink more water, otherwise you’ll feel uncomfortable."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "subtitle": "Lesson 18: Rainy Day",
+      "audio": "/audio/Lesson 6 (slide 4).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "外口落雨了未？",
+          "chinese": "外面下雨了吗？",
+          "pinyin": "ghua7 kao2 loh8(4) hou6 liao2 bhuê7?",
+          "english": "Is it raining outside?"
+        },
+        {
+          "timestamp": "00:04",
+          "teochew": "落了，落真大，还有雷公。",
+          "chinese": "下了，下很大，还打雷呢。",
+          "pinyin": "loh8 liao2, loh8(4) zing1 dua7, huan1 u6(7) lui5(7) gong1",
+          "english": "Yes, it’s pouring, and there’s even thunder."
+        },
+        {
+          "timestamp": "00:09",
+          "teochew": "按呢汝有扎雨遮無？",
+          "chinese": "那你有带雨伞吗？",
+          "pinyin": "an1 ne1 lu2 u6(7) zag4 hou6(7) zia1 bho5?",
+          "english": "Did you bring an umbrella then?"
+        },
+        {
+          "timestamp": "00:13",
+          "teochew": "有啊，阿無全身會淫了。",
+          "chinese": "有啊，不然全身都湿了。",
+          "pinyin": "u6 a1, a1(7) bho5 cuang5(7) sêng1 oi6(7) dam5 liao2",
+          "english": "Yes, otherwise I’d be soaked all over."
+        },
+        {
+          "timestamp": "00:18",
+          "teochew": "汝真聪明，我就唔記得扎了。",
+          "chinese": "你真聪明，我就忘了带。",
+          "pinyin": "lu2 zing1 cong1 mêng5, ua2 ziu6(7) m6(7) gi3(2) dêg4 zag4 liao2",
+          "english": "You’re smart, I totally forgot to bring mine."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "subtitle": "Lesson 19: Changing Weather 1",
+      "audio": "/audio/Lesson 6 (slide 19).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "只幾日個天时一下热，一下凝。",
+          "chinese": "最近的天气一下热，一下冷。",
+          "pinyin": "zi2(1) gui2(6) rig8 gai5(7) tin1 si5 zêg8(4) ê7 ruah8, zêg8(4) ê7 ngang5.",
+          "english": "Recently the weather has been hot one moment, cold the next."
+        },
+        {
+          "timestamp": "00:06",
+          "teochew": "几日前天時真热，日頭真大，出门就流汗。",
+          "chinese": "几天前天气很热，太阳很大，一出门就流汗。",
+          "pinyin": "gui2(1) rig8(4) zain5 tin1 si5 zing1 ruah8, rig8(4) tao5 zing1 dua7, cug4(8) meng5 ziu6(7) lao5(7) guan7.",
+          "english": "A few days ago it was very hot, the sun was strong, and I started sweating as soon as I went out."
+        },
+        {
+          "timestamp": "00:15",
+          "teochew": "但是昨日暗暝雨呾落就落，还有雷公。",
+          "chinese": "可是昨天晚上雨说下就下，还有打雷。",
+          "pinyin": "dang6(7) si6(7) za2(1) rig8 am3(2) mên5 hou6 dan3(2) loh8 ziu6(7) loh8, huan1 u6(7) lui5(7) gong1.",
+          "english": "But last night it suddenly rained and thundered."
+        },
+        {
+          "timestamp": "00:22",
+          "teochew": "今日早起就變凝了。",
+          "chinese": "今天早上就变冷了。",
+          "pinyin": "gim1 rig8 za2(6) ki2(3) ziu6(7) biang3(2) ngang5 liao2.",
+          "english": "And this morning it turned cold."
+        },
+        {
+          "timestamp": "00:26",
+          "teochew": "我只陣出门之前會睇睇今日会落雨不。",
+          "chinese": "我现在出门前都会看看今天会不会下雨。",
+          "pinyin": "ua2 zi2(6) zung5 cug4(8) meng5 zi1 zain5 oi6(7) toin2(1) toin2(1) gim1 rig8 oi6(7) loh8(4) hou6 bhoi6.",
+          "english": "Now before going out, I always check if it will rain today."
+        },
+        {
+          "timestamp": "00:34",
+          "teochew": "按呢正會知愛穿乜個衫。",
+          "chinese": "这样才知道要穿什么衣服。",
+          "pinyin": "an1 ne1 zia1 oi6(7) zai1 ain3(2) cêng7 mih4(8) gai5(7) san1.",
+          "english": "That way I know what to wear."
+        },
+        {
+          "timestamp": "00:39",
+          "teochew": "舊早我上舒甲夏天。",
+          "chinese": "以前我最喜欢夏天。",
+          "pinyin": "gu7 za2 ua2 siang5(7) su1 gah4 hê7 tin1.",
+          "english": "Before, I liked summer the most."
+        },
+        {
+          "timestamp": "00:43",
+          "teochew": "因为會使去𨑨迌、食霜膏、穿短綩。",
+          "chinese": "因为可以去游泳、吃冰淇淋、穿短袖。",
+          "pinyin": "ing1 ui7 oi6(7) sai ke3(2) tig4 to5, ziah8(4) seng1 go1, cêng7 do2(6) ng2(3).",
+          "english": "Because I could go swimming, eat ice cream, and wear short sleeves."
+        },
+        {
+          "timestamp": "00:50",
+          "teochew": "但是只陣我愈更舒甲秋天。",
+          "chinese": "但现在我更喜欢秋天。",
+          "pinyin": "dang6(7) si6(7) zi2(6) zung5 ua2 ru2(1) gêng1 su1 gah4 ciu1 tin1.",
+          "english": "But now I prefer autumn."
+        },
+        {
+          "timestamp": "00:57",
+          "teochew": "秋天不凝也不热，风也真凉，天時真舒服。",
+          "chinese": "秋天不冷也不热，风很凉快，天气很舒服。",
+          "pinyin": "ciu1 tin1 bhoi6(7) ngang5 ia7 bhoi6(7) ruah8, huang1 ia7 zing1 liang5, tin1 si5 zing1 su1 hog8.",
+          "english": "Autumn is neither too cold nor too hot, the breeze is cool, and the weather is very comfortable."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "subtitle": "Lesson 19: Changing Weather 2",
+      "audio": "/audio/Lesson 6 (slide 20).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "有时天时佮特别，会发生一撮危险個事。",
+          "chinese": "时候天气太特别，会发生一些灾害。",
+          "pinyin": "u6(7) si5 tin1 si5 kah4 dêg8(4) biag8, oi6(7) huag4(8) sên1 zêg8(4) coh4 ngui5(7) hiam2 gai5(7) su7.",
+          "english": "Sometimes when the weather is extreme, disasters can happen."
+        },
+        {
+          "timestamp": "00:09",
+          "teochew": "舊年夏天，續續落真㩼日個雨。",
+          "chinese": "去年夏天，连续下很多天的雨。",
+          "pinyin": "gu7 ni5 hê7 tin1, sua3(2) sua3 loh8(4) zing1 zoi7 rig8 gai5(7) hou6.",
+          "english": "Last summer, it rained for many days in a row."
+        },
+        {
+          "timestamp": "00:15",
+          "teochew": "后来发生了淹水。",
+          "chinese": "后来发生了洪水。",
+          "pinyin": "ao6(7) lai5 huag4(8) sên1 liao2(1) im1 zui2.",
+          "english": "Later flooding happened."
+        },
+        {
+          "timestamp": "00:19",
+          "teochew": "真㩼儂無變出门，車也無變駛。",
+          "chinese": "很多人不能出门，车也不能开。",
+          "pinyin": "zing1 zoi7 nang5 bho5(7) biang3 cug4(8) meng5, cia1 ia7 bho5(7) biang3(2) sai2(3).",
+          "english": "Many people could not leave their homes, cars couldn’t drive."
+        },
+        {
+          "timestamp": "00:26",
+          "teochew": "有個儂個內还着淹水了。",
+          "chinese": "有的人家里还被水淹了。",
+          "pinyin": "u6(7) gai5(7) nang5 gai5(7) lai6 huan1 dioh4 im1 zui2 liao2.",
+          "english": "Some people’s houses were flooded."
+        },
+        {
+          "timestamp": "00:31",
+          "teochew": "我也经过一摆細地震。",
+          "chinese": "我也经历过一次小地震。",
+          "pinyin": "ua2 ia7 gêng1 guê3 zêg8(4) bai2(1) soi3(2) di7 zêng2.",
+          "english": "I also experienced a small earthquake."
+        },
+        {
+          "timestamp": "00:37",
+          "teochew": "許日我在睇电视。",
+          "chinese": "那天我正在看电视。",
+          "pinyin": "he2(6) rig8 ua2 lo1 toin2(1) diang6(7) si6.",
+          "english": "That day I was watching TV."
+        },
+        {
+          "timestamp": "00:41",
+          "teochew": "还有一摆火燒，是在一間老厝。",
+          "chinese": "还有一次火灾，是在一栋老房子。",
+          "pinyin": "huan1 u6(7) zêg8(4) bai2(1) huê2(1) sio1, si6(7) do6(7) zêg8(4) gain1 lao6(7) cu3.",
+          "english": "There was also a fire once, in an old house."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "subtitle": "Lesson 19: Changing Weather 3",
+      "audio": "/audio/Lesson 6 (slide 21).wav",
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "teochew": "只陣我會知了，天時虽然我儂無變控制。",
+          "chinese": "现在我知道了，天气虽然我们不能控制。",
+          "pinyin": "zi2(6) zung5 ua2 oi6(7) zai1 liao2, tin1 si5 sui1 riang5 ua2 nang5 bho5(7) biang3(2) kong3(2) zi3.",
+          "english": "Now I know, although we cannot control the weather."
+        },
+        {
+          "timestamp": "00:10",
+          "teochew": "但是我儂會使早準備。",
+          "chinese": "但是我们可以早点准备。",
+          "pinyin": "dang6(7) si6(7) ua2 nang5 oi6(7) sai2(1) za2 zung2(1) bi6.",
+          "english": "But we can prepare earlier."
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "若是有发生事，我儂勿緊張。",
+          "chinese": "若是有发生事情，我们别紧张。",
+          "pinyin": "na7 si6(7) u6(7) huag4(8) sên1, ua2 nang5 mai3(2) gêng2(1) ziang1.",
+          "english": "If something happens, we should not panic."
+        },
+        {
+          "timestamp": "00:21",
+          "teochew": "保护好家己合家儂。",
+          "chinese": "保护好自己和家人。",
+          "pinyin": "bo2(1) hu6(7) ho2(1) ga1 gi7 gah4 gê1 nang5.",
+          "english": "We must protect ourselves and our family."
+        },
+        {
+          "timestamp": "00:25",
+          "teochew": "平安個日子上切要。",
+          "chinese": "平安的日子最重要。",
+          "pinyin": "pêng5(7) ang1 gai5(7) rig8 zi2 siang6(7) ciag4(8) iao3.",
+          "english": "Peaceful days are the most important."
         }
       ]
     }
