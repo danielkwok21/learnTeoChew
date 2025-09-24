@@ -1,0 +1,20 @@
+{{template "base" $}}
+
+<div class="bg-white text-white m-0 flex items-center justify-center min-h-screen mx-4">
+    <div id="card-container" class="flex flex-col items-center transition w-full max-w-md space-y-20">
+        <a
+            href="/terms/{{.Mode}}/{{.ID}}/ease"
+            hx-boost="true"
+        >
+            <p id="card-front" class="text-2xl font-bold mb-2 text-black text-6xl">
+                {{.Back}}
+            </p>
+        </a>
+
+        {{if ne .ID 1}}
+        <p class="font-bold mb-2 text-gray-500 text-1xl cursor-pointer" onclick="history.back()">
+            back
+        </p>
+        {{end}}
+    </div>
+</div>

@@ -26,6 +26,8 @@ if [ "$remote_commit" != "$local_commit" ]; then
     echo "New commit detected. Pulling and rebuilding..."
     git pull origin master
 
+    go mod tidy && go mod vendor
+
     # kill existing process else will not be able to restart it
     fuser -k 8085/tcp
 

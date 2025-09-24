@@ -5,3 +5,4 @@ main
 nohup.out
 app.log
 cronhistory.txt
+db

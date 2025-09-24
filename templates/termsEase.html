@@ -1,0 +1,22 @@
+{{template "base" $}}
+
+<div class="bg-white text-white m-0 flex items-center justify-center min-h-screen mx-4">
+    <div id="card-container" class="flex flex-col items-center transition w-full max-w-md space-y-20">
+        <p class="font-bold mb-2 text-gray-500 text-1xl cursor-pointer">
+            {{.Front}}/{{.Back}}
+        </p>
+
+        <form method="POST" action="/terms/{{.ID}}/ease" hx-boost="true" class="flex flex-col items-center mt-8">
+            <div class="flex flex-col space-y-10">
+                <button name="ease" value="1" class="text-black font-bold py-4 px-8 rounded text-4xl">easy</button>
+                <button name="ease" value="2" class="text-black font-bold py-4 px-8 rounded text-4xl">ok</button>
+                <button name="ease" value="3" class="text-black font-bold py-4 px-8 rounded text-4xl">hard</button>
+                <button name="ease" value="4" class="text-black font-bold py-4 px-8 rounded text-4xl">again</button>
+            </div>
+        </form>
+
+        <p class="font-bold mb-2 text-gray-500 text-1xl cursor-pointer" onclick="history.back()">
+            back
+        </p>
+    </div>
+</div>

@@ -1,8 +1,10 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -10,6 +12,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 type Database struct {
@@ -31,11 +34,17 @@ type Line struct {
 	Pinyin    string `json:"pinyin"`
 }
 
+type TermsMode string
+
+const (
+	TermsModeFrontToBack TermsMode = "f2b"
+	TermsModeBackToFront TermsMode = "b2f"
+)
+
 func main() {
 	// Create Gin router
 	r := gin.Default()
 
-	// Load HTML templates
 	r.LoadHTMLGlob("templates/*")
 
 	// Serve static files (CSS, JS, images)
@@ -44,16 +53,45 @@ func main() {
 	// Serve MP3 files from audio directory
 	r.Static("/audio", "./audio")
 
-	bytes, err := os.ReadFile("database.json")
-	if err != nil {
-		fmt.Println("Error at reading database.json: ", err)
-		panic(err)
+	// SQLite connection
+	log.Println("Connecting to SQLite database...")
+	db, dbErr := sql.Open("sqlite3", "./db/learn_teochew.db")
+	if dbErr != nil {
+		log.Fatal(dbErr)
+	}
+	defer db.Close()
+
+	bytes, bytesErr := os.ReadFile("database.json")
+	if bytesErr != nil {
+		fmt.Println("Error at reading database.json: ", bytesErr)
+		panic(bytesErr)
 	}
 	database := &Database{}
-	err = json.Unmarshal(bytes, database)
+	jsonErr := json.Unmarshal(bytes, database)
+	if jsonErr != nil {
+		fmt.Println("Error at unmarshalling database.json: ", jsonErr)
+		panic(jsonErr)
+	}
+
+	// cache
+	type Card struct {
+		ID    int
+		Front string
+		Back  string
+		Ease  *int
+	}
+	var cards []Card
+	rows, err := db.Query("SELECT id, front, back, ease from cards ORDER BY ease ASC")
 	if err != nil {
-		fmt.Println("Error at unmarshalling database.json: ", err)
-		panic(err)
+		log.Fatal(err)
+	}
+	defer rows.Close()
+	for rows.Next() {
+		var card Card
+		if err := rows.Scan(&card.ID, &card.Front, &card.Back, &card.Ease); err != nil {
+			log.Fatal(err)
+		}
+		cards = append(cards, card)
 	}
 
 	r.GET("/", func(c *gin.Context) {
@@ -71,6 +109,169 @@ func main() {
 		}
 
 		c.HTML(http.StatusOK, "index.html", pageData)
+	})
+
+	r.GET("/terms/:mode/:id/front", func(c *gin.Context) {
+		id := c.Param("id")
+
+		index, err := strconv.Atoi(id)
+		if err != nil {
+			index = 1
+		}
+
+		if index >= len(cards) {
+			c.String(http.StatusBadRequest, "Invalid id: %d", index)
+			return
+		}
+		card := cards[index]
+
+		mode := c.Param("mode")
+		term := ""
+		switch mode {
+		case string(TermsModeFrontToBack):
+			term = card.Front
+		case string(TermsModeBackToFront):
+			term = card.Back
+		default:
+			c.String(http.StatusBadRequest, "Invalid mode: %s", mode)
+			return
+		}
+
+		c.HTML(http.StatusOK, "termsFront.html", gin.H{
+			"Front": term,
+			"ID":    index,
+			"Mode":  mode,
+		})
+	})
+
+	r.GET("/terms/:mode/:id/back", func(c *gin.Context) {
+		id := c.Param("id")
+
+		index, err := strconv.Atoi(id)
+		if err != nil {
+			index = 1
+		}
+
+		if index > len(cards) {
+			c.String(http.StatusBadRequest, "Invalid id: %d", index)
+			return
+		}
+		card := cards[index]
+
+		mode := c.Param("mode")
+		term := ""
+		switch mode {
+		case string(TermsModeFrontToBack):
+			term = card.Back
+		case string(TermsModeBackToFront):
+			term = card.Front
+		default:
+			c.String(http.StatusBadRequest, "Invalid mode: %s", mode)
+			return
+		}
+
+		c.HTML(http.StatusOK, "termsBack.html", gin.H{
+			"Back": term,
+			"ID":   index,
+			"Mode": mode,
+		})
+	})
+
+	r.GET("/terms/:mode/:id/ease", func(c *gin.Context) {
+		id := c.Param("id")
+
+		index, err := strconv.Atoi(id)
+		if err != nil {
+			index = 1
+		}
+
+		if index >= len(cards) {
+			c.String(http.StatusBadRequest, "Invalid id: %d", index)
+			return
+		}
+
+		card := cards[index]
+
+		mode := c.Param("mode")
+		front := ""
+		back := ""
+		switch mode {
+		case string(TermsModeFrontToBack):
+			front = card.Front
+			back = card.Back
+		case string(TermsModeBackToFront):
+			front = card.Back
+			back = card.Front
+		default:
+			c.String(http.StatusBadRequest, "Invalid mode: %s", mode)
+			return
+		}
+
+		c.HTML(http.StatusOK, "termsEase.html", gin.H{
+			"Front": front,
+			"Back":  back,
+			"ID":    index,
+			"Mode":  mode,
+		})
+	})
+
+	r.GET("/terms", func(c *gin.Context) {
+
+		row := db.QueryRow("SELECT AVG(ease) FROM cards WHERE ease IS NOT NULL")
+		var medianScore float64
+		_ = row.Scan(&medianScore)
+
+		c.HTML(http.StatusOK, "terms.html", gin.H{
+			"Median": medianScore,
+		})
+	})
+
+	r.POST("/terms/:id/ease", func(c *gin.Context) {
+		id := c.Param("id")
+
+		id2, err := strconv.Atoi(id)
+		if err != nil {
+			c.String(http.StatusBadRequest, "invalid id=", id)
+			return
+		}
+		if id2 >= len(cards) {
+			c.String(http.StatusBadRequest, "invalid id=", id)
+			return
+		}
+
+		ease := c.PostForm("ease")
+		ease2, err := strconv.Atoi(ease)
+		if err != nil || ease2 < 1 || ease2 > 4 {
+			c.String(http.StatusBadRequest, "invalid ease=", ease)
+			return
+		}
+
+		_, err = db.Exec("UPDATE cards SET ease = ? WHERE id = ?", ease2, cards[id2].ID)
+		if err != nil {
+			c.String(http.StatusInternalServerError, "DB error: %v", err)
+			return
+		}
+
+		var nextCard Card
+		err = db.QueryRow("SELECT id, ease from cards ORDER BY ease DESC LIMIT 1").Scan(&nextCard.ID, &nextCard.Ease)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		// i.e. even the most difficult card is now very easy
+		// redirect to home page
+		if *nextCard.Ease == 1 {
+			c.Redirect(http.StatusFound, "/terms")
+			return
+		}
+
+		for i, card := range cards {
+			if card.ID == nextCard.ID {
+				c.Redirect(http.StatusFound, fmt.Sprintf("/terms/%d/front", i))
+				return
+			}
+		}
+		c.String(http.StatusInternalServerError, "unable to find next card of id: %d", nextCard.ID)
 	})
 
 	r.GET("/conversation/:ID", func(c *gin.Context) {
