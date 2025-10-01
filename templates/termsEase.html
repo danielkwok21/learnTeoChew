@@ -6,7 +6,7 @@
             {{.Front}}/{{.Back}}
         </p>
 
-        <form method="POST" action="/terms/{{.ID}}/ease" hx-boost="true" class="flex flex-col items-center mt-8">
+        <form method="POST" action="/terms/{{.Mode}}/{{.ID}}/ease" hx-boost="true" class="flex flex-col items-center mt-8">
             <div class="flex flex-col space-y-10">
                 <button name="ease" value="1" class="text-black font-bold py-4 px-8 rounded text-4xl">easy</button>
                 <button name="ease" value="2" class="text-black font-bold py-4 px-8 rounded text-4xl">ok</button>

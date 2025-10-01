@@ -226,7 +226,7 @@ func main() {
 		})
 	})
 
-	r.POST("/terms/:id/ease", func(c *gin.Context) {
+	r.POST("/terms/:mode/:id/ease", func(c *gin.Context) {
 		id := c.Param("id")
 
 		id2, err := strconv.Atoi(id)
@@ -246,6 +246,15 @@ func main() {
 			return
 		}
 
+		mode := c.Param("mode")
+		switch mode {
+		case string(TermsModeFrontToBack), string(TermsModeBackToFront):
+			// do nothing
+		default:
+			c.String(http.StatusBadRequest, "Invalid mode: %s", mode)
+			return
+		}
+
 		_, err = db.Exec("UPDATE cards SET ease = ? WHERE id = ?", ease2, cards[id2].ID)
 		if err != nil {
 			c.String(http.StatusInternalServerError, "DB error: %v", err)
@@ -257,17 +266,17 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-
-		// i.e. even the most difficult card is now very easy
-		// redirect to home page
-		if *nextCard.Ease == 1 {
-			c.Redirect(http.StatusFound, "/terms")
-			return
-		}
+		//
+		//// i.e. even the most difficult card is now very easy
+		//// redirect to home page
+		//if *nextCard.Ease == 1 {
+		//	c.Redirect(http.StatusFound, "/terms")
+		//	return
+		//}
 
 		for i, card := range cards {
 			if card.ID == nextCard.ID {
-				c.Redirect(http.StatusFound, fmt.Sprintf("/terms/%d/front", i))
+				c.Redirect(http.StatusFound, fmt.Sprintf("/terms/%s/%d/front", mode, i))
 				return
 			}
 		}
