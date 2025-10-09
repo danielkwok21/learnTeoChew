@@ -5,24 +5,24 @@
     <div class="w-full flex flex-col items-center space-y-6">
         <div class="text-xl font-bold">Score: <span id="average-score">{{.Score}}</span></div>
         <button
-            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            class="border-4 border-grey-500 text-grey-500 font-bold py-8 px-0 rounded text-4xl w-full h-32"
         >
             <a
                 href="/terms/f2b/1/front"
                 hx-boost="true"
             >
-                Front to Back
+                Pinyin -> Teochew
             </a>
         </button>
         <button
             hx-boost="true"
-            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            class="border-4 border-grey-500 text-grey-500 font-bold py-8 px-0 rounded text-4xl w-full h-32"
         >
             <a
                 href="/terms/b2f/1/front"
                 hx-boost="true"
             >
-                Back to Front
+                Teochew -> Pinyin
             </a>
         </button>
         <form method="POST" action="/terms/reset">

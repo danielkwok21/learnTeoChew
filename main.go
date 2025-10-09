@@ -227,12 +227,16 @@ func main() {
 	})
 
 	r.GET("/terms", func(c *gin.Context) {
-		row := db.QueryRow("SELECT AVG(ease) FROM cards WHERE ease IS NOT NULL")
-		var medianScore float64
+		row := db.QueryRow("SELECT SUM(ease) FROM cards WHERE ease IS NOT NULL")
+		var medianScore int
 		_ = row.Scan(&medianScore)
 
+		row = db.QueryRow("SELECT count(*) FROM cards")
+		var totalNumberOfCards int
+		_ = row.Scan(&totalNumberOfCards)
+
 		c.HTML(http.StatusOK, "terms.html", gin.H{
-			"Score": fmt.Sprintf("%.1f/%d", medianScore, Easy),
+			"Score": fmt.Sprintf("%d/%d", medianScore, totalNumberOfCards*int(Easy)),
 		})
 	})
 
@@ -272,7 +276,7 @@ func main() {
 		}
 
 		var nextHardCards []Card
-		rows, err := db.Query("SELECT id, ease FROM cards ORDER BY ease ASC LIMIT 2")
+		rows, err := db.Query("SELECT id, ease FROM cards WHERE ease ORDER BY ease ASC LIMIT 3")
 		if err != nil {
 			log.Fatal(err)
 		}
