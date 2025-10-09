@@ -1741,6 +1741,279 @@
           "english": "Great, tonight is going to be really fun!"
         }
       ]
+    },
+    {
+      "id": 28,
+      "subtitle": "Lesson 9: Casual Chat at Home (Slide 3)",
+      "audio": "/audio/Lesson 9 (Slide 3).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "阿林：阿張，汝在內無？",
+          "chinese": "小张，你在家吗？",
+          "pinyin": "a1 dion1, lu2 do6(7) lai6 bho5?",
+          "english": "Zhang, are you at home?"
+        },
+        {
+          "timestamp": "00:05",
+          "teochew": "阿張：有阿，我扒魯倒壏沙發頂耍電話。做呢？",
+          "chinese": "有啊，刚躺在沙发上刷手机。怎么了？",
+          "pinyin": "u6 a1, ua2 ba1(3)-lu2 do2 na7 sa1 huag4 dêng2 seng2(1) diang6(7) uê7. zo3(2) ni5?",
+          "english": "Yeah, I’m just lying on the sofa scrolling my phone. What’s up?"
+        },
+        {
+          "timestamp": "00:11",
+          "teochew": "阿林：我有淡薄肚困了。汝食過物件袂？",
+          "chinese": "我有点饿了。你吃过东西没？",
+          "pinyin": "ua2 u6(7) dam6(7) boh8(4) dou2 kung3 lieu2. lu2 ziah8(4) guê3 muêh8(4) gian6 bhoi7?",
+          "english": "I’m a bit hungry. Have you eaten anything yet?"
+        },
+        {
+          "timestamp": "00:18",
+          "teochew": "阿張：我食淡薄青果啢，肚也開始困了。愛出去食勿？",
+          "chinese": "我只吃了点水果，肚子也开始饿了。要不要出去吃？",
+          "pinyin": "ua2 ziah8(4) dam6(7) boh8(4) cên1 guê2 nia7, dou2 ia7 kai1 si2 kung3 lieu2. ain3(2) cug4(8) ke3(2) ziah8 mai3?",
+          "english": "I only had some fruit, and I’m starting to get hungry too. Want to go out to eat?"
+        },
+        {
+          "timestamp": "00:29",
+          "teochew": "阿林：好阿。汝想愛食乜個？",
+          "chinese": "好啊。你想吃什么？",
+          "pinyin": "ho2 a1. lu2 sion6(7) ain3(2) ziah8(4) mih4(8) gai5?",
+          "english": "Sure. What do you feel like eating?"
+        },
+        {
+          "timestamp": "00:33",
+          "teochew": "阿張：凊彩啦，勿佮油就好。",
+          "chinese": "随便啦，不要太油就好。",
+          "pinyin": "cing3(2) cai2 la7, mai3(2) kah4(8) iu5 ziu6(7) ho2.",
+          "english": "Anything’s fine, as long as it’s not too oily."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "subtitle": "Lesson 9: Eating Teochew Cuisine (Slide 4)",
+      "audio": "/audio/Lesson 9 (Slide 4).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "阿林：按呢俺去食潮州菜做物？我聽呾有新開一家潮餐館",
+          "chinese": "那我们去吃潮州菜怎么样？我听说有新开一家潮州餐馆。",
+          "pinyin": "an1 nê1 nang2 ke3(2) ziah8(4) dio5(7) ziu1 cai3 zo3(2) muêh8? ua2 tian1 dan3 u6(7) sêng1 kui1 zêg8(4) gê1 dio5(7) ziu1 cang1 guang2",
+          "english": "How about we go eat Teochew food? I heard there’s a new Teochew restaurant."
+        },
+        {
+          "timestamp": "00:11",
+          "teochew": "阿張：潮州菜？聽起來𠁞孬。有乜個推薦個？",
+          "chinese": "潮州菜？听起来不错。有什么推荐的？",
+          "pinyin": "dio5(7) ziu1 cai3? tian1 ki2(3) lai5(7) bhoi6(7) mo2. u6(7) mih4(8) gai5(7) tui1 zêng3 gai5?",
+          "english": "Teochew food? Sounds good. Do you have any recommendations?"
+        },
+        {
+          "timestamp": "00:19",
+          "teochew": "阿林：我朋友呾許塊個蠔烙真好食，還有炊鱼，和卤鴨",
+          "chinese": "我朋友说那里的蚝烙很好吃，还有蒸鱼，合卤鹅。",
+          "pinyin": "ua2 pêng5(7) iu2 dan3 he2(1) go3 gai5(7) o5(7) luah4 zing1 ho2(6) ziah8, huan1 u5(7) cuê1 hu5, gah4 lou2(1) ah4.",
+          "english": "My friend said their oyster omelet is really good, and they also have steamed fish and braised duck."
+        },
+        {
+          "timestamp": "00:28",
+          "teochew": "阿張：哇，聽了就流涎了。我上舒甲食清清個炊鱼",
+          "chinese": "哇，听着就流口水了。我最喜欢吃清淡的蒸鱼。",
+          "pinyin": "wa, tian1 lieu2 ziu6(7) lao5(7) nua6 lieu2. ua2 siang su1 gah4 ziah8(4) cêng1 cêng1 gai5(7) cuê1 hu5.",
+          "english": "Wow, just hearing that makes my mouth water. I really like eating light steamed fish."
+        },
+        {
+          "timestamp": "00:37",
+          "teochew": "阿林：還有伊儂個汤也有名，好然是牛肉丸汤。",
+          "chinese": "还有他们的汤也有名，好像是牛肉丸汤。",
+          "pinyin": "huan1 u6(7) i1 nang5 gai5(7) teng1 ia7 zing1 u6(7) mian5, hoh4 riang5(7) si6(7) ghu5(7) bhah4 in5(7) teng1.",
+          "english": "They’re also known for their soups, especially the beef ball soup."
+        },
+        {
+          "timestamp": "00:47",
+          "teochew": "阿張：按呢愈更好了。等下再點加幾樣菜。",
+          "chinese": "那更好了。等下再点几样菜。",
+          "pinyin": "an1 nê1 ru2(1) gêng2(1) ho2 lieu2. dang2 ê7 zai3(2) diang2(1) gê1 gui2(1) ion7 cai3.",
+          "english": "That’s even better. We can order a few more dishes later."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "subtitle": "Lesson 9: Ordering Food & Drinks (Slide 5)",
+      "audio": "/audio/Lesson 9 (Slide 5).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "阿林：着阿，會使來一份炒飯。",
+          "chinese": "对啊，可以再来一份炒饭。",
+          "pinyin": "dioh4(8) a1, oi6(7) sai2(1) lai5(7) zêg8(4) hung7 ca2(1) beng7.",
+          "english": "Yeah, let’s get another plate of fried rice."
+        },
+        {
+          "timestamp": "00:05",
+          "teochew": "阿張：水呢？愛食茶勿？",
+          "chinese": "饮料呢？要喝茶吗？",
+          "pinyin": "zui2 nê1? ain3(2) ziah8(4) dê5 mai3?",
+          "english": "What about drinks? Do you want tea?"
+        },
+        {
+          "timestamp": "00:09",
+          "teochew": "阿林：愛，我愛涼茶，汝愛乜個？",
+          "chinese": "好啊，我要凉茶，你要什么？",
+          "pinyin": "ain3, ua2 ain3(2) liang5(7) dê5, lu2 ain3(2) mih4(8) gai5?",
+          "english": "Yes, I’ll have herbal tea. What about you?"
+        },
+        {
+          "timestamp": "00:14",
+          "teochew": "阿張：我來一杯柑汁就好。按呢行了啦！",
+          "chinese": "我来杯果汁就行。那走吧！",
+          "pinyin": "ua2 lai5(7) zêg8(4) buê1 gan1 zab4 ziu6(7) ho2. an1 nê1 gian5 lieu2 la7!",
+          "english": "I’ll just have a cup of orange juice. Let’s go!"
+        },
+        {
+          "timestamp": "00:20",
+          "teochew": "阿林：好，等我十分鐘，俺做瓠行。",
+          "chinese": "好，等我十分钟，咱们一起出发。",
+          "pinyin": "ho2, dang2 ua2(3) zab8(4) hung1 zêng1, nang2 zo3(2) bu5(7) gian5",
+          "english": "Okay, give me ten minutes, then we’ll head out together."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "subtitle": "Lesson 9: Visiting Chaozhou (Slide 21)",
+      "audio": "/audio/Lesson 9 (Slide 21).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "頂個月，我合父母做瓠去了潮州。",
+          "chinese": "上个月，我和父母一起去了潮州。",
+          "pinyin": "dêng2(1) gai5(7) ghuêh8, ua2 gah4 bê6(7) bho2 zo3(2) bu5(7) ke3(2) lieu2(1) dio5(7) ziu1.",
+          "english": "Last month, I went to Chaozhou with my parents."
+        },
+        {
+          "timestamp": "00:07",
+          "teochew": "只擺旅行真特別，因爲我儂唔是去𨑨迌，",
+          "chinese": "这次旅行很特别，因为我们不是去旅游，",
+          "pinyin": "zi2 bai2 lu2(6) gian5 zing1 dêg8(4) biag8, ing1 ui7 ua2 nang5 m6(7) si6(7) ke3(2) tig4(8) to5,",
+          "english": "This trip was very special, because we didn’t go for sightseeing,"
+        },
+        {
+          "timestamp": "00:15",
+          "teochew": "da-bi 想愛捌親情，顺續了解家鄉個文化。",
+          "chinese": "而是想要认识亲戚，顺便了解家乡的文化。",
+          "pinyin": "da-bi sion6(7) ain3(2) bag4(8) cing1 zian5, sung6(7) sua3 lieu2(6) goi2(3) gê1 hion1 gai5(7) bhung5(7) huê3",
+          "english": "but rather to meet relatives and learn more about my hometown’s culture."
+        },
+        {
+          "timestamp": "00:23",
+          "teochew": "到親情內個時候，伊儂真親切，𡥘我儂参观了祖厝。",
+          "chinese": "到亲戚家的时候，他们非常親切，带我们参观了祖屋。",
+          "pinyin": "gao3(2) cing1 zian5(7) lai6 gai5(7) si5(7) hao7, i1 nang5 zing1 cing1 ciag4, cua7 ua2 nang5 cang1 guang1 lieu2(1) zou2(1) cu4.",
+          "english": "When we arrived at our relatives’ home, they were very warm and took us to see the ancestral house."
+        },
+        {
+          "timestamp": "00:35",
+          "teochew": "許個是一落老厝，有柴門合紅色個对联，",
+          "chinese": "那是一栋老房子，有木门和红色的对联，",
+          "pinyin": "he2(1) go3 si6(7) zêg8(4) loh8 lao6(7) cu4, u6(7) ca5(7) meng5 gah4 ang5(7) sêg4 gai5(7) dui3(2) liang5,",
+          "english": "It was an old house, with a wooden door and red couplets."
+        },
+        {
+          "timestamp": "00:45",
+          "teochew": "睇起來真有傳統個味。",
+          "chinese": "看起来很有传统的味道。",
+          "pinyin": "toin2(1) ki2(3) lai7 zing1 u6(7) tuang5(7) tong2 gai5(7) bhi7.",
+          "english": "It looked very traditional in style."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "subtitle": "Lesson 9: Visiting Chaozhou (Slide 22)",
+      "audio": "/audio/Lesson 9 (Slide 22).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "日晝，親情準備了一床飯菜。",
+          "chinese": "中午，亲戚准备了一桌饭菜。",
+          "pinyin": "rig8(4) dao3, cing1 zian5 zung1 bi6(7) lieu2(1) zêg8(4) ceng5(7) beng7 cai3.",
+          "english": "At noon, our relatives prepared a full table of dishes."
+        },
+        {
+          "timestamp": "00:06",
+          "teochew": "有炊鱼，滷鴨，蠔烙合粿汁，坪爿還有一撮青果。",
+          "chinese": "有蒸鱼、卤鹅、蚝烙和粿汁，旁边还有一些水果。",
+          "pinyin": "u6(7) cuê1 hu5, lou2(1) ah4, o5(7) luah4 gah4 guê2(1) zab4, pian5(7) bain5 huan1 u6(7) zêg8(4) coh4 cên1 guê2.",
+          "english": "There was steamed fish, braised duck, oyster omelet with kway chap, and some fruit on the side."
+        },
+        {
+          "timestamp": "00:15",
+          "teochew": "親情呾，只撮攏是潮州儂平時食個菜，也是招待儂客個方式。",
+          "chinese": "亲戚说，这些都是潮州平时吃的菜，也是招待客人的方式。",
+          "pinyin": "cing1 zian5 dan3, zi2(1) coh4 long2(6) si6(7) diou5(7) ziu1 nang5 pêng5(7) si5 ziah8 gai5(7) cai3, ia7 si6(7) ziao1 tai6(7) nang5(7) keh4 gai5(7) huang1 sêg4.",
+          "english": "Our relatives said these were everyday Teochew dishes, also a way of treating guests."
+        },
+        {
+          "timestamp": "00:27",
+          "teochew": "我頭一擺在家鄉食着只撮菜，覺得味素真特別。",
+          "chinese": "我第一次在家乡吃到这些菜，觉得味道很特别。",
+          "pinyin": "ua2 tao5(7) zêg8(4) bai2 do6(7) gê1 hion1 ziah8(4) dioh4 zi2(1) coh4 cai3, gag4(8) dêg4 bhi7 sou3 zing1 dêg8(4) biag8.",
+          "english": "It was my first time eating these dishes in my hometown, and the flavors felt very special."
+        },
+        {
+          "timestamp": "00:38",
+          "teochew": "食飯以後，大家做瓠食工夫茶。細細個茶杯，茶香真厚。",
+          "chinese": "吃饭以后，大家一起喝工夫茶。小小的茶杯，茶香很浓。",
+          "pinyin": "ziah8(4) beng7 in2(1) ao6, dai6(7) gê1 zo3(2) bu5(7) ziah8(4) gang1 hu1 dê5. soi3(2) soi3 gai5(7) dê5(7) buê1, dê5 pang1 zing1 gao6.",
+          "english": "After the meal, everyone drank Gongfu tea together. The tiny tea cups carried a rich aroma."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "subtitle": "Lesson 9: Visiting Chaozhou (Slide 23)",
+      "audio": "/audio/Lesson 9 (Slide 23).wav",
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "teochew": "我儂頭食茶，頭聽父母合親情詖旧早個古事。",
+          "chinese": "我们一边喝茶，一边听父母和亲戚聊起过去的故事。",
+          "pinyin": "ua2 nang5 tao5(7) ziah8(4) dê5, tao5(7) tian1 bê6(7) bho2 gah4 cing1 zian5 puêh8(4) gu7 za2 gai5(7) gou2 su7.",
+          "english": "We drank tea while listening to our parents and relatives talk about stories from the past."
+        },
+        {
+          "timestamp": "00:08",
+          "teochew": "雖然我無完全聽會懂，但是覺得真親切。",
+          "chinese": "虽然我不完全听得懂，但觉得很亲切。",
+          "pinyin": "sui1 riang5 ua2 bho5(7) uang5(7) cuang5 tian1 oi6(7) dong2, dang6(7) si6(7) gag4(8) dêg4 zing1 cing1 ciag4",
+          "english": "Although I couldn’t fully understand, I felt very close and connected."
+        },
+        {
+          "timestamp": "00:17",
+          "teochew": "只擺個潮州旅行物我印象真深。",
+          "chinese": "这次潮州之行让我印象很深。",
+          "pinyin": "zi2 bai2 gai5(7) dio5(7) ziu1 lu2(6) gian5 muêh8(4) ua2 êng3(2) siang6 zing1 cim1.",
+          "english": "This trip to Chaozhou left a deep impression on me."
+        },
+        {
+          "timestamp": "00:24",
+          "teochew": "通过捌親情，試食潮州菜，食工夫茶，",
+          "chinese": "通过认识亲戚、品尝潮州菜、喝工夫茶，",
+          "pinyin": "tong1 guê3 bag4(8) cing1 zian5, ci3(2) ziah8(4) dio5(7) ziu1 cai3, ziah8(4) gang1 hu1 dê5,",
+          "english": "By meeting relatives, tasting Teochew dishes, and drinking Gongfu tea,"
+        },
+        {
+          "timestamp": "00:32",
+          "teochew": "我唔是食了一頓飯領，也感受到合家鄉個联系。",
+          "chinese": "我不只是吃了一顿饭，也感受到和家乡的联系。",
+          "pinyin": "ua2 m6(7) si6(7) ziah8(4) lieu2(1) zêg8(4) deng3 beng7 nia7, ia7 gam2(1) siu6 gao3(2) gah4 gê1 hion1 gai5(7) liang5(7) hi6",
+          "english": "I didn’t just eat a meal—I also felt the bond with my hometown."
+        }
+      ]
     }
   ]
 }
