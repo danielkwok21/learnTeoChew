@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -270,15 +271,31 @@ func main() {
 			return
 		}
 
-		var nextCard Card
-		err = db.QueryRow("SELECT id, ease from cards ORDER BY ease ASC LIMIT 1").Scan(&nextCard.ID, &nextCard.Ease)
+		var nextHardCards []Card
+		rows, err := db.Query("SELECT id, ease FROM cards ORDER BY ease ASC LIMIT 2")
 		if err != nil {
 			log.Fatal(err)
 		}
+		defer rows.Close()
+		for rows.Next() {
+			var card Card
+			if err := rows.Scan(&card.ID, &card.Ease); err != nil {
+				log.Fatal(err)
+			}
+			nextHardCards = append(nextHardCards, card)
+		}
+		if len(nextHardCards) == 0 {
+			log.Println("no more hard cards found, redirect to home page")
+			c.Redirect(http.StatusFound, "/terms")
+			return
+		}
+		randIndex := rand.Intn(len(nextHardCards))
+		nextCard := nextHardCards[randIndex]
 
 		// i.e. even the most difficult card is now very easy
 		// redirect to home page
 		if nextCard.Ease != nil && *nextCard.Ease == Easy {
+			log.Println("all cards are easy now, redirect to home page")
 			c.Redirect(http.StatusFound, "/terms")
 			return
 		}
