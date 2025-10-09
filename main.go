@@ -41,6 +41,22 @@ const (
 	TermsModeBackToFront TermsMode = "b2f"
 )
 
+type Card struct {
+	ID    int
+	Front string
+	Back  string
+	Ease  *Ease
+}
+
+type Ease int
+
+const (
+	VeryHard Ease = 1
+	Hard     Ease = 2
+	Good     Ease = 3
+	Easy     Ease = 4
+)
+
 func main() {
 	// Create Gin router
 	r := gin.Default()
@@ -74,14 +90,8 @@ func main() {
 	}
 
 	// cache
-	type Card struct {
-		ID    int
-		Front string
-		Back  string
-		Ease  *int
-	}
 	var cards []Card
-	rows, err := db.Query("SELECT id, front, back, ease from cards ORDER BY ease ASC")
+	rows, err := db.Query("SELECT id, front, back, ease from cards ORDER BY RANDOM()")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -216,13 +226,12 @@ func main() {
 	})
 
 	r.GET("/terms", func(c *gin.Context) {
-
 		row := db.QueryRow("SELECT AVG(ease) FROM cards WHERE ease IS NOT NULL")
 		var medianScore float64
 		_ = row.Scan(&medianScore)
 
 		c.HTML(http.StatusOK, "terms.html", gin.H{
-			"Median": medianScore,
+			"Score": fmt.Sprintf("%.1f/%d", medianScore, Easy),
 		})
 	})
 
@@ -241,7 +250,7 @@ func main() {
 
 		ease := c.PostForm("ease")
 		ease2, err := strconv.Atoi(ease)
-		if err != nil || ease2 < 1 || ease2 > 4 {
+		if err != nil || ease2 < int(VeryHard) || ease2 > int(Easy) {
 			c.String(http.StatusBadRequest, "invalid ease=", ease)
 			return
 		}
@@ -262,25 +271,37 @@ func main() {
 		}
 
 		var nextCard Card
-		err = db.QueryRow("SELECT id, ease from cards ORDER BY ease DESC LIMIT 1").Scan(&nextCard.ID, &nextCard.Ease)
+		err = db.QueryRow("SELECT id, ease from cards ORDER BY ease ASC LIMIT 1").Scan(&nextCard.ID, &nextCard.Ease)
 		if err != nil {
 			log.Fatal(err)
 		}
-		//
-		//// i.e. even the most difficult card is now very easy
-		//// redirect to home page
-		//if *nextCard.Ease == 1 {
-		//	c.Redirect(http.StatusFound, "/terms")
-		//	return
-		//}
 
-		for i, card := range cards {
+		// i.e. even the most difficult card is now very easy
+		// redirect to home page
+		if nextCard.Ease != nil && *nextCard.Ease == Easy {
+			c.Redirect(http.StatusFound, "/terms")
+			return
+		}
+
+		for index, card := range cards {
 			if card.ID == nextCard.ID {
-				c.Redirect(http.StatusFound, fmt.Sprintf("/terms/%s/%d/front", mode, i))
+				c.Redirect(http.StatusFound, fmt.Sprintf("/terms/%s/%d/front", mode, index))
 				return
 			}
 		}
 		c.String(http.StatusInternalServerError, "unable to find next card of id: %d", nextCard.ID)
+	})
+
+	r.POST("/terms/reset", func(c *gin.Context) {
+		_, err := db.Exec("UPDATE cards SET ease = NULL")
+		if err != nil {
+			c.String(http.StatusInternalServerError, "DB error: %v", err)
+			return
+		}
+		for i := range cards {
+			cards[i].Ease = nil
+		}
+		c.Redirect(http.StatusFound, "/terms")
 	})
 
 	r.GET("/conversation/:ID", func(c *gin.Context) {

@@ -6,17 +6,13 @@
             {{.Front}}/{{.Back}}
         </p>
 
-        <form method="POST" action="/terms/{{.Mode}}/{{.ID}}/ease" hx-boost="true" class="flex flex-col items-center mt-8">
-            <div class="flex flex-col space-y-10">
-                <button name="ease" value="1" class="text-black font-bold py-4 px-8 rounded text-4xl">easy</button>
-                <button name="ease" value="2" class="text-black font-bold py-4 px-8 rounded text-4xl">ok</button>
-                <button name="ease" value="3" class="text-black font-bold py-4 px-8 rounded text-4xl">hard</button>
-                <button name="ease" value="4" class="text-black font-bold py-4 px-8 rounded text-4xl">again</button>
+        <form method="POST" action="/terms/{{.Mode}}/{{.ID}}/ease" hx-boost="true" class="flex flex-col items-center mt-8 w-full">
+            <div class="grid gap-2 w-full">
+                <button name="ease" value="1" class="bg-white text-black font-bold py-8 px-0 rounded text-4xl border border-gray-500 w-full h-32">very hard</button>
+                <button name="ease" value="2" class="bg-white text-black font-bold py-8 px-0 rounded text-4xl border border-gray-500 w-full h-32">hard</button>
+                <button name="ease" value="3" class="bg-white text-black font-bold py-8 px-0 rounded text-4xl border border-gray-500 w-full h-32">ok</button>
+                <button name="ease" value="4" class="bg-white text-black font-bold py-8 px-0 rounded text-4xl border border-gray-500 w-full h-32">easy</button>
             </div>
         </form>
-
-        <p class="font-bold mb-2 text-gray-500 text-1xl cursor-pointer" onclick="history.back()">
-            back
-        </p>
     </div>
 </div>
