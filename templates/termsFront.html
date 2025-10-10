@@ -11,4 +11,41 @@
             </p>
         </a>
     </div>
+
+    <button id="record">🎤 Record 3s</button>
 </div>
+
+<script>
+    const recordBtn = document.getElementById("record");
+
+    recordBtn.addEventListener("click", async () => {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        const mediaRecorder = new MediaRecorder(stream);
+        let chunks = [];
+
+        mediaRecorder.ondataavailable = (e) => chunks.push(e.data);
+
+        mediaRecorder.onstop = async () => {
+            const blob = new Blob(chunks, { type: "audio/webm" }); // webm works well
+            chunks = [];
+
+            const formData = new FormData();
+            formData.append("file", blob, "recording.webm");
+            formData.append("index", {{.ID}});
+
+            const resp = await fetch("http://localhost:8085/answer", {
+                method: "POST",
+                body: formData,
+            });
+
+            const result = await resp.json();
+            console.log("Backend result:", result);
+        };
+
+        mediaRecorder.start();
+        setTimeout(() => {
+            mediaRecorder.stop()
+            console.log('stopped')
+        }, 2000);
+    });
+</script>

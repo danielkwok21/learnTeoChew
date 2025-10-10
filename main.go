@@ -1,16 +1,19 @@
 package main
 
 import (
+	"bytes"
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"math/rand"
+	"mime/multipart"
 	"net/http"
 	"os"
-	"path/filepath"
 	"sort"
 	"strconv"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/mattn/go-sqlite3"
@@ -293,6 +296,7 @@ func main() {
 			c.Redirect(http.StatusFound, "/terms")
 			return
 		}
+		fmt.Println(nextHardCards)
 		randIndex := rand.Intn(len(nextHardCards))
 		nextCard := nextHardCards[randIndex]
 
@@ -314,7 +318,7 @@ func main() {
 	})
 
 	r.POST("/terms/reset", func(c *gin.Context) {
-		_, err := db.Exec("UPDATE cards SET ease = NULL")
+		_, err := db.Exec("UPDATE cards SET ease = 1")
 		if err != nil {
 			c.String(http.StatusInternalServerError, "DB error: %v", err)
 			return
@@ -388,22 +392,48 @@ func main() {
 		c.Redirect(http.StatusFound, fmt.Sprintf("/conversation/%d", targetConversation.ID))
 	})
 
-	// API endpoint to get available audio files
-	r.GET("/api/audio-files", func(c *gin.Context) {
-		files, err := filepath.Glob("./audio/*.mp3")
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to read audio files"})
+	r.POST("/answer", func(c *gin.Context) {
+		index := c.PostForm("index")
+		if index == "" {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "index required"})
 			return
 		}
 
-		// Extract just filenames
-		var audioFiles []string
-		for _, file := range files {
-			audioFiles = append(audioFiles, filepath.Base(file))
+		index2, err := strconv.Atoi(index)
+		if err != nil || index2 < 0 || index2 >= len(cards) {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "invalid index"})
+			return
 		}
 
+		file, err := c.FormFile("file")
+		if err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "file required"})
+			return
+		}
+
+		savePath := "./" + file.Filename
+		if err := c.SaveUploadedFile(file, savePath); err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "cannot save file"})
+			return
+		}
+		//defer os.Remove(savePath)
+
+		card := cards[index2]
+
+		// Call Whisper API directly
+		spoken, err := transcribeWithWhisper(savePath)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+
+		expected := card.Back
+		isMatch := strings.TrimSpace(spoken) == expected
+
 		c.JSON(http.StatusOK, gin.H{
-			"files": audioFiles,
+			"spoken":   spoken,
+			"expected": expected,
+			"isMatch":  isMatch,
 		})
 	})
 
@@ -413,4 +443,72 @@ func main() {
 	})
 
 	r.Run(":8085")
+}
+
+func transcribeWithWhisper(filePath string) (string, error) {
+	type WhisperResp struct {
+		Text string `json:"text"`
+	}
+	apiKey := os.Getenv("OPENAI_API_KEY")
+	if apiKey == "" {
+		return "", fmt.Errorf("OPENAI_API_KEY not set")
+	}
+
+	file, err := os.Open(filePath)
+	if err != nil {
+		return "", err
+	}
+	defer file.Close()
+
+	var b bytes.Buffer
+	w := multipart.NewWriter(&b)
+
+	// File field
+	fw, err := w.CreateFormFile("file", filePath)
+	if err != nil {
+		return "", err
+	}
+	if _, err = io.Copy(fw, file); err != nil {
+		return "", err
+	}
+
+	// Model field
+	if err = w.WriteField("model", "whisper-1"); err != nil {
+		return "", err
+	}
+
+	// Language field
+	if err = w.WriteField("language", "zh"); err != nil {
+		return "", err
+	}
+
+	w.Close()
+
+	req, err := http.NewRequest("POST", "https://api.openai.com/v1/audio/transcriptions", &b)
+	if err != nil {
+		return "", err
+	}
+	req.Header.Set("Authorization", "Bearer "+apiKey)
+	req.Header.Set("Content-Type", w.FormDataContentType())
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		return "", err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		body, _ := io.ReadAll(resp.Body)
+		return "", fmt.Errorf("whisper API error: %s", string(body))
+	}
+
+	var wr WhisperResp
+	if err := json.NewDecoder(resp.Body).Decode(&wr); err != nil {
+		return "", err
+	}
+
+	fmt.Println(wr)
+
+	return wr.Text, nil
 }
