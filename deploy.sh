@@ -29,7 +29,7 @@ if [ "$remote_commit" != "$local_commit" ]; then
     go mod tidy && go mod vendor
 
     # kill existing process else will not be able to restart it
-    fuser -k 8085/tcp
+    fuser -k 8086/tcp
 
     go build -o main main.go
     nohup ./main > app.log 2>&1 &
